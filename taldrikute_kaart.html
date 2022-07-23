@@ -1,0 +1,3673 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c928fcedada2404c20041d747572bbac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c928fcedada2404c20041d747572bbac" ></div>
+        
+</body>
+<script>    
+    
+            var map_c928fcedada2404c20041d747572bbac = L.map(
+                "map_c928fcedada2404c20041d747572bbac",
+                {
+                    center: [13.133932434766733, 16.103938729508073],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8992c3a7180513bbb1494127bfc04a39 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var marker_9b5125588472f2e552dd55dcbc1a8058 = L.marker(
+                [43.51560741, 16.45331307],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_00ba34c5bf9cc19e369c15419e75ad15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9b5125588472f2e552dd55dcbc1a8058.setIcon(icon_00ba34c5bf9cc19e369c15419e75ad15);
+        
+    
+        var popup_8b8c992ea72fde40ed61daf0b7e9b2cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1140c57dd3183db1fba53d32c766f1ad = $(`<div id="html_1140c57dd3183db1fba53d32c766f1ad" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Split,_Croatia>Split</a></div>`)[0];
+            popup_8b8c992ea72fde40ed61daf0b7e9b2cb.setContent(html_1140c57dd3183db1fba53d32c766f1ad);
+        
+
+        marker_9b5125588472f2e552dd55dcbc1a8058.bindPopup(popup_8b8c992ea72fde40ed61daf0b7e9b2cb)
+        ;
+
+        
+    
+    
+            marker_9b5125588472f2e552dd55dcbc1a8058.bindTooltip(
+                `<div>
+                     Split
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb2c192f770717e3626f8ce78758a517 = L.marker(
+                [31.91456489, 35.91211981],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_693966587bd98aa2d1d83e7a4de8a617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bb2c192f770717e3626f8ce78758a517.setIcon(icon_693966587bd98aa2d1d83e7a4de8a617);
+        
+    
+        var popup_acf697c8fe734f18713210e9d2bcc87c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c71c3b949dc4066ee1d77eb6099b9059 = $(`<div id="html_c71c3b949dc4066ee1d77eb6099b9059" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Amman>Amman</a></div>`)[0];
+            popup_acf697c8fe734f18713210e9d2bcc87c.setContent(html_c71c3b949dc4066ee1d77eb6099b9059);
+        
+
+        marker_bb2c192f770717e3626f8ce78758a517.bindPopup(popup_acf697c8fe734f18713210e9d2bcc87c)
+        ;
+
+        
+    
+    
+            marker_bb2c192f770717e3626f8ce78758a517.bindTooltip(
+                `<div>
+                     Amman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a561af0d12383f8f009eab275dd536d = L.marker(
+                [49.60363641, 6.123805299],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_bff790c04cb0fe8b7131306c8fac30e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4a561af0d12383f8f009eab275dd536d.setIcon(icon_bff790c04cb0fe8b7131306c8fac30e0);
+        
+    
+        var popup_ddcaab2a1edbf3648e3a1d7485715126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f3feef06ffed713775b83622ec400b = $(`<div id="html_39f3feef06ffed713775b83622ec400b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Luxembourg_City>Luxembourg</a></div>`)[0];
+            popup_ddcaab2a1edbf3648e3a1d7485715126.setContent(html_39f3feef06ffed713775b83622ec400b);
+        
+
+        marker_4a561af0d12383f8f009eab275dd536d.bindPopup(popup_ddcaab2a1edbf3648e3a1d7485715126)
+        ;
+
+        
+    
+    
+            marker_4a561af0d12383f8f009eab275dd536d.bindTooltip(
+                `<div>
+                     Luxembourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7309680e92dc29586e2b5eb7c6bb5f6 = L.marker(
+                [37.89193904, -4.780021733],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_5fe34209e908cbb15a24e3cddfcf33f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e7309680e92dc29586e2b5eb7c6bb5f6.setIcon(icon_5fe34209e908cbb15a24e3cddfcf33f4);
+        
+    
+        var popup_a55f2cd6b4ef0982c8f06e9bc4ccf3c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a91177d35b6690266e1b299d2608c69e = $(`<div id="html_a91177d35b6690266e1b299d2608c69e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Córdoba,_Spain>Cordoba</a></div>`)[0];
+            popup_a55f2cd6b4ef0982c8f06e9bc4ccf3c5.setContent(html_a91177d35b6690266e1b299d2608c69e);
+        
+
+        marker_e7309680e92dc29586e2b5eb7c6bb5f6.bindPopup(popup_a55f2cd6b4ef0982c8f06e9bc4ccf3c5)
+        ;
+
+        
+    
+    
+            marker_e7309680e92dc29586e2b5eb7c6bb5f6.bindTooltip(
+                `<div>
+                     Cordoba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb38ec3b3352c5d9d467c80e0f9debc7 = L.marker(
+                [57.81109117, 28.36071898],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_58b964e002314442e155829f30353940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eb38ec3b3352c5d9d467c80e0f9debc7.setIcon(icon_58b964e002314442e155829f30353940);
+        
+    
+        var popup_fdbcea523ea01cb7f3d6324b7e918393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f127edad9ebec2211ce8286a24511a5e = $(`<div id="html_f127edad9ebec2211ce8286a24511a5e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Pskov>Pskov</a></div>`)[0];
+            popup_fdbcea523ea01cb7f3d6324b7e918393.setContent(html_f127edad9ebec2211ce8286a24511a5e);
+        
+
+        marker_eb38ec3b3352c5d9d467c80e0f9debc7.bindPopup(popup_fdbcea523ea01cb7f3d6324b7e918393)
+        ;
+
+        
+    
+    
+            marker_eb38ec3b3352c5d9d467c80e0f9debc7.bindTooltip(
+                `<div>
+                     Pskov
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a80e1c52522479ebdef11441f210187 = L.marker(
+                [37.18093808, -3.599511927],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_635e66bc3166cf4777f06e68f79c1533 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8a80e1c52522479ebdef11441f210187.setIcon(icon_635e66bc3166cf4777f06e68f79c1533);
+        
+    
+        var popup_510a5649b3f16aca9d163fce49c94045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11754d8f2dc5c2e98a3d1aa026995375 = $(`<div id="html_11754d8f2dc5c2e98a3d1aa026995375" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Granada>Granada</a></div>`)[0];
+            popup_510a5649b3f16aca9d163fce49c94045.setContent(html_11754d8f2dc5c2e98a3d1aa026995375);
+        
+
+        marker_8a80e1c52522479ebdef11441f210187.bindPopup(popup_510a5649b3f16aca9d163fce49c94045)
+        ;
+
+        
+    
+    
+            marker_8a80e1c52522479ebdef11441f210187.bindTooltip(
+                `<div>
+                     Granada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0434fe790802fc99dcfbcfac427732a0 = L.marker(
+                [46.45409943, 30.73099908],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_099ad7ffda396974dc662fa0453e5486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0434fe790802fc99dcfbcfac427732a0.setIcon(icon_099ad7ffda396974dc662fa0453e5486);
+        
+    
+        var popup_13697390bfcb02b1f81bead2441291be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7b409ff47d314059cabb7ad082ab54b = $(`<div id="html_f7b409ff47d314059cabb7ad082ab54b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Odesa>Odessa</a></div>`)[0];
+            popup_13697390bfcb02b1f81bead2441291be.setContent(html_f7b409ff47d314059cabb7ad082ab54b);
+        
+
+        marker_0434fe790802fc99dcfbcfac427732a0.bindPopup(popup_13697390bfcb02b1f81bead2441291be)
+        ;
+
+        
+    
+    
+            marker_0434fe790802fc99dcfbcfac427732a0.bindTooltip(
+                `<div>
+                     Odessa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f9c6d69e26b68e7de264148136917ab = L.marker(
+                [41.71385237, 44.82919922],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_57f531d8a27cd550dc590aae8a4b0571 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6f9c6d69e26b68e7de264148136917ab.setIcon(icon_57f531d8a27cd550dc590aae8a4b0571);
+        
+    
+        var popup_09f6463fdf35beb4cade74ee83935e72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c3a77efee7dfcb14f25546c94a393cc = $(`<div id="html_4c3a77efee7dfcb14f25546c94a393cc" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Tbilisi>Tbilisi</a></div>`)[0];
+            popup_09f6463fdf35beb4cade74ee83935e72.setContent(html_4c3a77efee7dfcb14f25546c94a393cc);
+        
+
+        marker_6f9c6d69e26b68e7de264148136917ab.bindPopup(popup_09f6463fdf35beb4cade74ee83935e72)
+        ;
+
+        
+    
+    
+            marker_6f9c6d69e26b68e7de264148136917ab.bindTooltip(
+                `<div>
+                     Tbilisi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_549c2aefe23e14a926465ff1fd2e7983 = L.marker(
+                [47.37917657, 8.522291625],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4bc2c23738635e423629f1f014d6a191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_549c2aefe23e14a926465ff1fd2e7983.setIcon(icon_4bc2c23738635e423629f1f014d6a191);
+        
+    
+        var popup_9d155fe04ac4fb262284c39c9d21c087 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d846738f844e7f057b6b4021c823d086 = $(`<div id="html_d846738f844e7f057b6b4021c823d086" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Zürich>Zürich</a></div>`)[0];
+            popup_9d155fe04ac4fb262284c39c9d21c087.setContent(html_d846738f844e7f057b6b4021c823d086);
+        
+
+        marker_549c2aefe23e14a926465ff1fd2e7983.bindPopup(popup_9d155fe04ac4fb262284c39c9d21c087)
+        ;
+
+        
+    
+    
+            marker_549c2aefe23e14a926465ff1fd2e7983.bindTooltip(
+                `<div>
+                     Zürich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d77c33d92056d48e9ce29e38646fdfb = L.marker(
+                [40.69472811, -73.97969654],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_60049f19433e23d9ebdccbcf55d9d1b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3d77c33d92056d48e9ce29e38646fdfb.setIcon(icon_60049f19433e23d9ebdccbcf55d9d1b7);
+        
+    
+        var popup_0a96077d7d470ddd1fb8424a5c4ab8c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6467d09b2ac03a7b0c2890bfbe66341 = $(`<div id="html_a6467d09b2ac03a7b0c2890bfbe66341" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/New_York_City>New York</a></div>`)[0];
+            popup_0a96077d7d470ddd1fb8424a5c4ab8c8.setContent(html_a6467d09b2ac03a7b0c2890bfbe66341);
+        
+
+        marker_3d77c33d92056d48e9ce29e38646fdfb.bindPopup(popup_0a96077d7d470ddd1fb8424a5c4ab8c8)
+        ;
+
+        
+    
+    
+            marker_3d77c33d92056d48e9ce29e38646fdfb.bindTooltip(
+                `<div>
+                     New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0105e792a84cafbf0b6fde057c19cb58 = L.marker(
+                [46.06454806, 14.52246908],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_937b0a5f575adac8eed648b635a2d6fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0105e792a84cafbf0b6fde057c19cb58.setIcon(icon_937b0a5f575adac8eed648b635a2d6fc);
+        
+    
+        var popup_8619def37122f2f92b2b85c992175ccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909eebd737352b4e5c6af6ec165e890e = $(`<div id="html_909eebd737352b4e5c6af6ec165e890e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Ljubljana>Ljubljana</a></div>`)[0];
+            popup_8619def37122f2f92b2b85c992175ccf.setContent(html_909eebd737352b4e5c6af6ec165e890e);
+        
+
+        marker_0105e792a84cafbf0b6fde057c19cb58.bindPopup(popup_8619def37122f2f92b2b85c992175ccf)
+        ;
+
+        
+    
+    
+            marker_0105e792a84cafbf0b6fde057c19cb58.bindTooltip(
+                `<div>
+                     Ljubljana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e56b139a18a9f9a1ccb78168a2eaea8 = L.marker(
+                [38.72780249, -9.156454173],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_28edd7c0386772a83f953d3292910ea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9e56b139a18a9f9a1ccb78168a2eaea8.setIcon(icon_28edd7c0386772a83f953d3292910ea1);
+        
+    
+        var popup_830989122fdaf9554b5e5a246429697d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e66b22591f6815e62a31c11467ea6e5 = $(`<div id="html_7e66b22591f6815e62a31c11467ea6e5" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Lisbon>Lissabon</a></div>`)[0];
+            popup_830989122fdaf9554b5e5a246429697d.setContent(html_7e66b22591f6815e62a31c11467ea6e5);
+        
+
+        marker_9e56b139a18a9f9a1ccb78168a2eaea8.bindPopup(popup_830989122fdaf9554b5e5a246429697d)
+        ;
+
+        
+    
+    
+            marker_9e56b139a18a9f9a1ccb78168a2eaea8.bindTooltip(
+                `<div>
+                     Lissabon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b6dfff620975360750805c964b1d219 = L.marker(
+                [50.4328164, 30.55761506],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_9c0bf7e517dde1e1fcb6db0406b569a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0b6dfff620975360750805c964b1d219.setIcon(icon_9c0bf7e517dde1e1fcb6db0406b569a7);
+        
+    
+        var popup_c21e9bb37cb67de73efb6e79d07273a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_785ccdb2413b462692f0867b2d2bd9f9 = $(`<div id="html_785ccdb2413b462692f0867b2d2bd9f9" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Kyiv>Kiiev</a></div>`)[0];
+            popup_c21e9bb37cb67de73efb6e79d07273a0.setContent(html_785ccdb2413b462692f0867b2d2bd9f9);
+        
+
+        marker_0b6dfff620975360750805c964b1d219.bindPopup(popup_c21e9bb37cb67de73efb6e79d07273a0)
+        ;
+
+        
+    
+    
+            marker_0b6dfff620975360750805c964b1d219.bindTooltip(
+                `<div>
+                     Kiiev
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42b0d95d734d38128d5b14d495cac5b7 = L.marker(
+                [38.80252786, -9.380459904],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_e4afe77f2b1eb070017628e501f79fd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_42b0d95d734d38128d5b14d495cac5b7.setIcon(icon_e4afe77f2b1eb070017628e501f79fd9);
+        
+    
+        var popup_d79c397b74965bd6e63056d0d9906df7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f97a73aefc71245e5fc7edbbbdc88989 = $(`<div id="html_f97a73aefc71245e5fc7edbbbdc88989" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sintra>Sintra</a></div>`)[0];
+            popup_d79c397b74965bd6e63056d0d9906df7.setContent(html_f97a73aefc71245e5fc7edbbbdc88989);
+        
+
+        marker_42b0d95d734d38128d5b14d495cac5b7.bindPopup(popup_d79c397b74965bd6e63056d0d9906df7)
+        ;
+
+        
+    
+    
+            marker_42b0d95d734d38128d5b14d495cac5b7.bindTooltip(
+                `<div>
+                     Sintra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2428f1697fcf997c37986aa654a237f7 = L.marker(
+                [41.87871443, 12.49157663],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_f728cf3d3209d283742c35b53bec5bab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2428f1697fcf997c37986aa654a237f7.setIcon(icon_f728cf3d3209d283742c35b53bec5bab);
+        
+    
+        var popup_5d6eb22a02978d611cba454c7376b844 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbef3ea42880040103a63cd7da9c6a18 = $(`<div id="html_dbef3ea42880040103a63cd7da9c6a18" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Rome>Rooma</a></div>`)[0];
+            popup_5d6eb22a02978d611cba454c7376b844.setContent(html_dbef3ea42880040103a63cd7da9c6a18);
+        
+
+        marker_2428f1697fcf997c37986aa654a237f7.bindPopup(popup_5d6eb22a02978d611cba454c7376b844)
+        ;
+
+        
+    
+    
+            marker_2428f1697fcf997c37986aa654a237f7.bindTooltip(
+                `<div>
+                     Rooma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9346a09a1d077289bbb720e68e56a0c5 = L.marker(
+                [40.54941845, 14.23277508],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_81f4660524b4a5f539dd757abbc3759a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9346a09a1d077289bbb720e68e56a0c5.setIcon(icon_81f4660524b4a5f539dd757abbc3759a);
+        
+    
+        var popup_b5b3ccb990fcdb777485c53a4d9226fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a55fa9a28d24be773479978db3991307 = $(`<div id="html_a55fa9a28d24be773479978db3991307" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Capri>Capri</a></div>`)[0];
+            popup_b5b3ccb990fcdb777485c53a4d9226fa.setContent(html_a55fa9a28d24be773479978db3991307);
+        
+
+        marker_9346a09a1d077289bbb720e68e56a0c5.bindPopup(popup_b5b3ccb990fcdb777485c53a4d9226fa)
+        ;
+
+        
+    
+    
+            marker_9346a09a1d077289bbb720e68e56a0c5.bindTooltip(
+                `<div>
+                     Capri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de389fce8e4e9fcdd6a6fa49ed8d137c = L.marker(
+                [30.07111587, 31.27958629],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_7748f4cc1df9a716aa138eca903cf938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_de389fce8e4e9fcdd6a6fa49ed8d137c.setIcon(icon_7748f4cc1df9a716aa138eca903cf938);
+        
+    
+        var popup_a4d42109bf61545e621f88cda757c9df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f54e472d1a13fb1428c9814d3875d5c = $(`<div id="html_1f54e472d1a13fb1428c9814d3875d5c" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Cairo>Kairo</a></div>`)[0];
+            popup_a4d42109bf61545e621f88cda757c9df.setContent(html_1f54e472d1a13fb1428c9814d3875d5c);
+        
+
+        marker_de389fce8e4e9fcdd6a6fa49ed8d137c.bindPopup(popup_a4d42109bf61545e621f88cda757c9df)
+        ;
+
+        
+    
+    
+            marker_de389fce8e4e9fcdd6a6fa49ed8d137c.bindTooltip(
+                `<div>
+                     Kairo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66e19b03bf312a758d8ca2192db6d291 = L.marker(
+                [43.85228163, 18.39698801],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_49d8b665742c68b90590f78131bc6840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_66e19b03bf312a758d8ca2192db6d291.setIcon(icon_49d8b665742c68b90590f78131bc6840);
+        
+    
+        var popup_725fe28f171249a5eec96a2f0d76f592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_997361b2bbada91b930ea60bfc517679 = $(`<div id="html_997361b2bbada91b930ea60bfc517679" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sarajevo>Sarajaevo</a></div>`)[0];
+            popup_725fe28f171249a5eec96a2f0d76f592.setContent(html_997361b2bbada91b930ea60bfc517679);
+        
+
+        marker_66e19b03bf312a758d8ca2192db6d291.bindPopup(popup_725fe28f171249a5eec96a2f0d76f592)
+        ;
+
+        
+    
+    
+            marker_66e19b03bf312a758d8ca2192db6d291.bindTooltip(
+                `<div>
+                     Sarajaevo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b347f7b4800b9058ee599076b43ed0a1 = L.marker(
+                [51.10616081, 17.03710802],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_6bb73f380d17562b2ff3aba3b2860919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b347f7b4800b9058ee599076b43ed0a1.setIcon(icon_6bb73f380d17562b2ff3aba3b2860919);
+        
+    
+        var popup_f83c82edae1912507eefa9526f24a2b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dbdc0c643ff833aff5904ff7049eb53 = $(`<div id="html_7dbdc0c643ff833aff5904ff7049eb53" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Wrocław>Wroclaw</a></div>`)[0];
+            popup_f83c82edae1912507eefa9526f24a2b5.setContent(html_7dbdc0c643ff833aff5904ff7049eb53);
+        
+
+        marker_b347f7b4800b9058ee599076b43ed0a1.bindPopup(popup_f83c82edae1912507eefa9526f24a2b5)
+        ;
+
+        
+    
+    
+            marker_b347f7b4800b9058ee599076b43ed0a1.bindTooltip(
+                `<div>
+                     Wroclaw
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6edccc1480da84ef4a96119644764d4a = L.marker(
+                [36.37836721, 28.15532944],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_31fef55d8fb6485a334782ef6e934acc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6edccc1480da84ef4a96119644764d4a.setIcon(icon_31fef55d8fb6485a334782ef6e934acc);
+        
+    
+        var popup_e27b0f5a9d44ec43fa4b5dfbb56e966a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597a9fd702081b8a9d362af0485154b8 = $(`<div id="html_597a9fd702081b8a9d362af0485154b8" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Rhodes>Rhodos</a></div>`)[0];
+            popup_e27b0f5a9d44ec43fa4b5dfbb56e966a.setContent(html_597a9fd702081b8a9d362af0485154b8);
+        
+
+        marker_6edccc1480da84ef4a96119644764d4a.bindPopup(popup_e27b0f5a9d44ec43fa4b5dfbb56e966a)
+        ;
+
+        
+    
+    
+            marker_6edccc1480da84ef4a96119644764d4a.bindTooltip(
+                `<div>
+                     Rhodos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e40c1887eb9fda646c71d089aa1f7da3 = L.marker(
+                [35.23601688, 25.10461091],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_412b20199511a6f2316c667826f3b1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e40c1887eb9fda646c71d089aa1f7da3.setIcon(icon_412b20199511a6f2316c667826f3b1d7);
+        
+    
+        var popup_658291d5add9a7a0d91c60cdd00acb9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfac4df2790016c7b5384c3245a31584 = $(`<div id="html_dfac4df2790016c7b5384c3245a31584" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Crete>Kreeta</a></div>`)[0];
+            popup_658291d5add9a7a0d91c60cdd00acb9f.setContent(html_dfac4df2790016c7b5384c3245a31584);
+        
+
+        marker_e40c1887eb9fda646c71d089aa1f7da3.bindPopup(popup_658291d5add9a7a0d91c60cdd00acb9f)
+        ;
+
+        
+    
+    
+            marker_e40c1887eb9fda646c71d089aa1f7da3.bindTooltip(
+                `<div>
+                     Kreeta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed1194450b2e4c357da11da8f2e8986d = L.marker(
+                [41.39508057, 2.158750255],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ba3ab8c13a26a48c7902c718d979d55f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ed1194450b2e4c357da11da8f2e8986d.setIcon(icon_ba3ab8c13a26a48c7902c718d979d55f);
+        
+    
+        var popup_617a7f0dea8198bc5c124c955e38e10e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a06a7a939c61fe4e6ed6f7fd6ba35b60 = $(`<div id="html_a06a7a939c61fe4e6ed6f7fd6ba35b60" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Barcelona>Barcelona</a></div>`)[0];
+            popup_617a7f0dea8198bc5c124c955e38e10e.setContent(html_a06a7a939c61fe4e6ed6f7fd6ba35b60);
+        
+
+        marker_ed1194450b2e4c357da11da8f2e8986d.bindPopup(popup_617a7f0dea8198bc5c124c955e38e10e)
+        ;
+
+        
+    
+    
+            marker_ed1194450b2e4c357da11da8f2e8986d.bindTooltip(
+                `<div>
+                     Barcelona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_781a4d3b356f4c50af705d936d7a2b9c = L.marker(
+                [30.40371563, -9.567456916],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_b8e3effa1bbed220aed5dc656066e6eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_781a4d3b356f4c50af705d936d7a2b9c.setIcon(icon_b8e3effa1bbed220aed5dc656066e6eb);
+        
+    
+        var popup_b0e04cbc699181509ff826e01c1f6517 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d55a30752b89270a1e1bfef30d31ed = $(`<div id="html_20d55a30752b89270a1e1bfef30d31ed" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Agadir>Agadir</a></div>`)[0];
+            popup_b0e04cbc699181509ff826e01c1f6517.setContent(html_20d55a30752b89270a1e1bfef30d31ed);
+        
+
+        marker_781a4d3b356f4c50af705d936d7a2b9c.bindPopup(popup_b0e04cbc699181509ff826e01c1f6517)
+        ;
+
+        
+    
+    
+            marker_781a4d3b356f4c50af705d936d7a2b9c.bindTooltip(
+                `<div>
+                     Agadir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1374dae54b5ef5c3b7ea7cc9b227280e = L.marker(
+                [47.48712531, 19.08086745],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_37fc2c426e119c01e4200c05ae0ba4db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1374dae54b5ef5c3b7ea7cc9b227280e.setIcon(icon_37fc2c426e119c01e4200c05ae0ba4db);
+        
+    
+        var popup_46168acb998f7772b759d17643974f5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_950e4df620131e1f2f2aa2acfe2b885a = $(`<div id="html_950e4df620131e1f2f2aa2acfe2b885a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Budapest>Budapest</a></div>`)[0];
+            popup_46168acb998f7772b759d17643974f5f.setContent(html_950e4df620131e1f2f2aa2acfe2b885a);
+        
+
+        marker_1374dae54b5ef5c3b7ea7cc9b227280e.bindPopup(popup_46168acb998f7772b759d17643974f5f)
+        ;
+
+        
+    
+    
+            marker_1374dae54b5ef5c3b7ea7cc9b227280e.bindTooltip(
+                `<div>
+                     Budapest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9b000bd699997a6baf7bb700f462d73 = L.marker(
+                [54.36098396, 18.62341506],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_2bc8ca45da7c2b4513fd8fb8eddf0c6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d9b000bd699997a6baf7bb700f462d73.setIcon(icon_2bc8ca45da7c2b4513fd8fb8eddf0c6b);
+        
+    
+        var popup_3b756f528e99e19564450c6b227444a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44a5ef594b1f6c6206c083ee3c319ed = $(`<div id="html_a44a5ef594b1f6c6206c083ee3c319ed" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Gdańsk>Gdansk</a></div>`)[0];
+            popup_3b756f528e99e19564450c6b227444a2.setContent(html_a44a5ef594b1f6c6206c083ee3c319ed);
+        
+
+        marker_d9b000bd699997a6baf7bb700f462d73.bindPopup(popup_3b756f528e99e19564450c6b227444a2)
+        ;
+
+        
+    
+    
+            marker_d9b000bd699997a6baf7bb700f462d73.bindTooltip(
+                `<div>
+                     Gdansk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34db0e682d7a72f98116e90407b8ff91 = L.marker(
+                [40.86336433, 14.20987026],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ee0854c8a93c16a8fd3ec8ef071933a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_34db0e682d7a72f98116e90407b8ff91.setIcon(icon_ee0854c8a93c16a8fd3ec8ef071933a2);
+        
+    
+        var popup_430abd74afcb1dd0af179c38c75b2c54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0205412e1b9143c92a38fbb8209bb79a = $(`<div id="html_0205412e1b9143c92a38fbb8209bb79a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Naples>Napoli</a></div>`)[0];
+            popup_430abd74afcb1dd0af179c38c75b2c54.setContent(html_0205412e1b9143c92a38fbb8209bb79a);
+        
+
+        marker_34db0e682d7a72f98116e90407b8ff91.bindPopup(popup_430abd74afcb1dd0af179c38c75b2c54)
+        ;
+
+        
+    
+    
+            marker_34db0e682d7a72f98116e90407b8ff91.bindTooltip(
+                `<div>
+                     Napoli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23fe8c718113299f8b22b75f6ad68100 = L.marker(
+                [39.93628267, 32.81513236],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_287e5fe426cdd39393af05879614b784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_23fe8c718113299f8b22b75f6ad68100.setIcon(icon_287e5fe426cdd39393af05879614b784);
+        
+    
+        var popup_ef8be4becab48f2503eac4ed5f5f5965 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793870ca048ddba8b042a27670470e00 = $(`<div id="html_793870ca048ddba8b042a27670470e00" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Ankara>Ankara</a></div>`)[0];
+            popup_ef8be4becab48f2503eac4ed5f5f5965.setContent(html_793870ca048ddba8b042a27670470e00);
+        
+
+        marker_23fe8c718113299f8b22b75f6ad68100.bindPopup(popup_ef8be4becab48f2503eac4ed5f5f5965)
+        ;
+
+        
+    
+    
+            marker_23fe8c718113299f8b22b75f6ad68100.bindTooltip(
+                `<div>
+                     Ankara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4347ca1e3465c2f4b229cbd2fa582787 = L.marker(
+                [37.58800912, 14.40326151],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_dc8b7dbf39e24156c27b9a733e788729 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4347ca1e3465c2f4b229cbd2fa582787.setIcon(icon_dc8b7dbf39e24156c27b9a733e788729);
+        
+    
+        var popup_2faefb69e5c410562c4ed74fd0364513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e448fe404ff916eb9e9b124c196a0aab = $(`<div id="html_e448fe404ff916eb9e9b124c196a0aab" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sicily>Sitsiilia</a></div>`)[0];
+            popup_2faefb69e5c410562c4ed74fd0364513.setContent(html_e448fe404ff916eb9e9b124c196a0aab);
+        
+
+        marker_4347ca1e3465c2f4b229cbd2fa582787.bindPopup(popup_2faefb69e5c410562c4ed74fd0364513)
+        ;
+
+        
+    
+    
+            marker_4347ca1e3465c2f4b229cbd2fa582787.bindTooltip(
+                `<div>
+                     Sitsiilia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49e1e8ce27fa962636eaa64356f372c0 = L.marker(
+                [36.09925861, -112.1121508],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_0d7edff8010f37ef588e925a6a3eb032 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_49e1e8ce27fa962636eaa64356f372c0.setIcon(icon_0d7edff8010f37ef588e925a6a3eb032);
+        
+    
+        var popup_9346450bf86e0f7e178beb26c3c960cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eb474ac09bb4aae75228cf27d5d5b80 = $(`<div id="html_6eb474ac09bb4aae75228cf27d5d5b80" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Grand_Canyon>Grand Canyon</a></div>`)[0];
+            popup_9346450bf86e0f7e178beb26c3c960cd.setContent(html_6eb474ac09bb4aae75228cf27d5d5b80);
+        
+
+        marker_49e1e8ce27fa962636eaa64356f372c0.bindPopup(popup_9346450bf86e0f7e178beb26c3c960cd)
+        ;
+
+        
+    
+    
+            marker_49e1e8ce27fa962636eaa64356f372c0.bindTooltip(
+                `<div>
+                     Grand Canyon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_897338f1093c53a241af72c6e62aecd6 = L.marker(
+                [27.93557356, 34.36540504],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_6ff08992135998a7b70407c08eaacbf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_897338f1093c53a241af72c6e62aecd6.setIcon(icon_6ff08992135998a7b70407c08eaacbf9);
+        
+    
+        var popup_f829a95816f5cd35c536a2f1d4530bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4720e78d04819eba015f5984fae70e9b = $(`<div id="html_4720e78d04819eba015f5984fae70e9b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sharm_El_Sheikh>Sharm El-Sheikh</a></div>`)[0];
+            popup_f829a95816f5cd35c536a2f1d4530bcf.setContent(html_4720e78d04819eba015f5984fae70e9b);
+        
+
+        marker_897338f1093c53a241af72c6e62aecd6.bindPopup(popup_f829a95816f5cd35c536a2f1d4530bcf)
+        ;
+
+        
+    
+    
+            marker_897338f1093c53a241af72c6e62aecd6.bindTooltip(
+                `<div>
+                     Sharm El-Sheikh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddcf2a7868b0962a33eaed3fb841de4f = L.marker(
+                [41.0191268, 29.02322767],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_d54c8bcbf4270dc4981477c33fe83647 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ddcf2a7868b0962a33eaed3fb841de4f.setIcon(icon_d54c8bcbf4270dc4981477c33fe83647);
+        
+    
+        var popup_08f9d769b53b02db9ee786da7f0bb494 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ee0cce1cca43b10ff33aaefc44b9eab = $(`<div id="html_9ee0cce1cca43b10ff33aaefc44b9eab" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Istanbul>Istanbul</a></div>`)[0];
+            popup_08f9d769b53b02db9ee786da7f0bb494.setContent(html_9ee0cce1cca43b10ff33aaefc44b9eab);
+        
+
+        marker_ddcf2a7868b0962a33eaed3fb841de4f.bindPopup(popup_08f9d769b53b02db9ee786da7f0bb494)
+        ;
+
+        
+    
+    
+            marker_ddcf2a7868b0962a33eaed3fb841de4f.bindTooltip(
+                `<div>
+                     Istanbul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a912664c0ff615c2e69927464ee7a4ad = L.marker(
+                [36.90670775, 30.71599115],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_b235c4e6bc03448fe394d0e285af31e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a912664c0ff615c2e69927464ee7a4ad.setIcon(icon_b235c4e6bc03448fe394d0e285af31e0);
+        
+    
+        var popup_bcd32389511cfaef59f25dec71a17fde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41015aa0a642b36799bd590d80c2ae48 = $(`<div id="html_41015aa0a642b36799bd590d80c2ae48" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Antalya>Antalya</a></div>`)[0];
+            popup_bcd32389511cfaef59f25dec71a17fde.setContent(html_41015aa0a642b36799bd590d80c2ae48);
+        
+
+        marker_a912664c0ff615c2e69927464ee7a4ad.bindPopup(popup_bcd32389511cfaef59f25dec71a17fde)
+        ;
+
+        
+    
+    
+            marker_a912664c0ff615c2e69927464ee7a4ad.bindTooltip(
+                `<div>
+                     Antalya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c5988ee0d68e5b93f65612cbb6c725c = L.marker(
+                [48.81446894, 14.31974163],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_bceff1c89c625f3065b6709e34668401 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1c5988ee0d68e5b93f65612cbb6c725c.setIcon(icon_bceff1c89c625f3065b6709e34668401);
+        
+    
+        var popup_5c414acb77975f26f71bc9f6d1d4185d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70f3fff88112ae6fa14b6a0de50efe4a = $(`<div id="html_70f3fff88112ae6fa14b6a0de50efe4a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Český_Krumlov>Cesky Krumlov</a></div>`)[0];
+            popup_5c414acb77975f26f71bc9f6d1d4185d.setContent(html_70f3fff88112ae6fa14b6a0de50efe4a);
+        
+
+        marker_1c5988ee0d68e5b93f65612cbb6c725c.bindPopup(popup_5c414acb77975f26f71bc9f6d1d4185d)
+        ;
+
+        
+    
+    
+            marker_1c5988ee0d68e5b93f65612cbb6c725c.bindTooltip(
+                `<div>
+                     Cesky Krumlov
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_663c80ad2bf8c8077b2ccbd9175046e6 = L.marker(
+                [50.67342284, -1.290692871],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_9100069b670494539d195d2462b72466 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_663c80ad2bf8c8077b2ccbd9175046e6.setIcon(icon_9100069b670494539d195d2462b72466);
+        
+    
+        var popup_1efadeb25d95264b4c6683e3097943f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9070c867ec3535fd969e7def4c227bc8 = $(`<div id="html_9070c867ec3535fd969e7def4c227bc8" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Isle_of_Wight>Isle of Wight</a></div>`)[0];
+            popup_1efadeb25d95264b4c6683e3097943f3.setContent(html_9070c867ec3535fd969e7def4c227bc8);
+        
+
+        marker_663c80ad2bf8c8077b2ccbd9175046e6.bindPopup(popup_1efadeb25d95264b4c6683e3097943f3)
+        ;
+
+        
+    
+    
+            marker_663c80ad2bf8c8077b2ccbd9175046e6.bindTooltip(
+                `<div>
+                     Isle of Wight
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebd175ee6b2e448c487b7028825633cb = L.marker(
+                [35.16897108, 136.9091245],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_9af1a51ed72c0ffff0059b7cb9faf552 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ebd175ee6b2e448c487b7028825633cb.setIcon(icon_9af1a51ed72c0ffff0059b7cb9faf552);
+        
+    
+        var popup_2dac2f154f8f7024031c8d4685cb1d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ad6322339da990ec331a46f9c56d71c = $(`<div id="html_5ad6322339da990ec331a46f9c56d71c" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Nagoya>Nagoya</a></div>`)[0];
+            popup_2dac2f154f8f7024031c8d4685cb1d09.setContent(html_5ad6322339da990ec331a46f9c56d71c);
+        
+
+        marker_ebd175ee6b2e448c487b7028825633cb.bindPopup(popup_2dac2f154f8f7024031c8d4685cb1d09)
+        ;
+
+        
+    
+    
+            marker_ebd175ee6b2e448c487b7028825633cb.bindTooltip(
+                `<div>
+                     Nagoya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81fe9a6350b0a45a9363183693052d0d = L.marker(
+                [39.86938557, 116.3713924],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_908f7b8602206a88e689987ce1bc2f54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_81fe9a6350b0a45a9363183693052d0d.setIcon(icon_908f7b8602206a88e689987ce1bc2f54);
+        
+    
+        var popup_1a0c232b95717ed862dca40eefe5e6aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb5aeaa16771eea5eb8ffc514e6c097b = $(`<div id="html_bb5aeaa16771eea5eb8ffc514e6c097b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Beijing>Peking</a></div>`)[0];
+            popup_1a0c232b95717ed862dca40eefe5e6aa.setContent(html_bb5aeaa16771eea5eb8ffc514e6c097b);
+        
+
+        marker_81fe9a6350b0a45a9363183693052d0d.bindPopup(popup_1a0c232b95717ed862dca40eefe5e6aa)
+        ;
+
+        
+    
+    
+            marker_81fe9a6350b0a45a9363183693052d0d.bindTooltip(
+                `<div>
+                     Peking
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eedd955cf6254bad794659eeb2e56fc0 = L.marker(
+                [37.86171568, 32.49339657],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_a123e4e0145c2c9e813c4e8d6b41e421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_eedd955cf6254bad794659eeb2e56fc0.setIcon(icon_a123e4e0145c2c9e813c4e8d6b41e421);
+        
+    
+        var popup_adb4256d3052d61be939b147673da17f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53dad49444e33510f6e12d780681b536 = $(`<div id="html_53dad49444e33510f6e12d780681b536" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Konya>Konya</a></div>`)[0];
+            popup_adb4256d3052d61be939b147673da17f.setContent(html_53dad49444e33510f6e12d780681b536);
+        
+
+        marker_eedd955cf6254bad794659eeb2e56fc0.bindPopup(popup_adb4256d3052d61be939b147673da17f)
+        ;
+
+        
+    
+    
+            marker_eedd955cf6254bad794659eeb2e56fc0.bindTooltip(
+                `<div>
+                     Konya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a1571d408545b6b417038f77896dd86 = L.marker(
+                [40.62928657, 14.58737502],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_9070b6876fa80736dda2d13446955132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7a1571d408545b6b417038f77896dd86.setIcon(icon_9070b6876fa80736dda2d13446955132);
+        
+    
+        var popup_5c791b8fb6057a84f26bdf467eb041b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ee654d7bfaa0dbd4f98e969b115016f = $(`<div id="html_7ee654d7bfaa0dbd4f98e969b115016f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Amalfi>Amalfi</a></div>`)[0];
+            popup_5c791b8fb6057a84f26bdf467eb041b9.setContent(html_7ee654d7bfaa0dbd4f98e969b115016f);
+        
+
+        marker_7a1571d408545b6b417038f77896dd86.bindPopup(popup_5c791b8fb6057a84f26bdf467eb041b9)
+        ;
+
+        
+    
+    
+            marker_7a1571d408545b6b417038f77896dd86.bindTooltip(
+                `<div>
+                     Amalfi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffed21b56353b7a5786bf8329b849c92 = L.marker(
+                [54.5904986, -5.93564589],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_e30bf5419750606a5cd5bc6faa13b201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ffed21b56353b7a5786bf8329b849c92.setIcon(icon_e30bf5419750606a5cd5bc6faa13b201);
+        
+    
+        var popup_ab3c651f42b36aa1245d408823f1d450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a9acc93d6482b40a1ed704a879c5b73 = $(`<div id="html_8a9acc93d6482b40a1ed704a879c5b73" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Belfast>Belfast</a></div>`)[0];
+            popup_ab3c651f42b36aa1245d408823f1d450.setContent(html_8a9acc93d6482b40a1ed704a879c5b73);
+        
+
+        marker_ffed21b56353b7a5786bf8329b849c92.bindPopup(popup_ab3c651f42b36aa1245d408823f1d450)
+        ;
+
+        
+    
+    
+            marker_ffed21b56353b7a5786bf8329b849c92.bindTooltip(
+                `<div>
+                     Belfast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_170807d89f2aaf2e373b4ecc321f9fc4 = L.marker(
+                [55.72069463, 37.58823534],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_14c66469726c012c7c60187ee8c7b06a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_170807d89f2aaf2e373b4ecc321f9fc4.setIcon(icon_14c66469726c012c7c60187ee8c7b06a);
+        
+    
+        var popup_136f079aabfa41221e4065274b0a0095 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f340b69ae131e0e96a3fda6d492f453 = $(`<div id="html_5f340b69ae131e0e96a3fda6d492f453" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Moscow>Moskva</a></div>`)[0];
+            popup_136f079aabfa41221e4065274b0a0095.setContent(html_5f340b69ae131e0e96a3fda6d492f453);
+        
+
+        marker_170807d89f2aaf2e373b4ecc321f9fc4.bindPopup(popup_136f079aabfa41221e4065274b0a0095)
+        ;
+
+        
+    
+    
+            marker_170807d89f2aaf2e373b4ecc321f9fc4.bindTooltip(
+                `<div>
+                     Moskva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfb8973bb0eb563625721b203e7ab106 = L.marker(
+                [1.348312375, 103.8380859],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_b229c98144ead9d43433c4d182e047fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bfb8973bb0eb563625721b203e7ab106.setIcon(icon_b229c98144ead9d43433c4d182e047fe);
+        
+    
+        var popup_66850f3dd8cab2067abdf9354faaff97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25e6edd8a482c5015d737ed9b3fa4a3c = $(`<div id="html_25e6edd8a482c5015d737ed9b3fa4a3c" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Singapore>Singapur</a></div>`)[0];
+            popup_66850f3dd8cab2067abdf9354faaff97.setContent(html_25e6edd8a482c5015d737ed9b3fa4a3c);
+        
+
+        marker_bfb8973bb0eb563625721b203e7ab106.bindPopup(popup_66850f3dd8cab2067abdf9354faaff97)
+        ;
+
+        
+    
+    
+            marker_bfb8973bb0eb563625721b203e7ab106.bindTooltip(
+                `<div>
+                     Singapur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_207033cb82745820f10bdacb9f94ed9a = L.marker(
+                [48.85884358, 2.346715481],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_3fab8683f9e8ff40cda86724c62031d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_207033cb82745820f10bdacb9f94ed9a.setIcon(icon_3fab8683f9e8ff40cda86724c62031d1);
+        
+    
+        var popup_e1ebaa5e11df9200a04ec30476c86cbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b18d34e44486a7523c204c404e71bf2 = $(`<div id="html_3b18d34e44486a7523c204c404e71bf2" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Paris>Pariis</a></div>`)[0];
+            popup_e1ebaa5e11df9200a04ec30476c86cbc.setContent(html_3b18d34e44486a7523c204c404e71bf2);
+        
+
+        marker_207033cb82745820f10bdacb9f94ed9a.bindPopup(popup_e1ebaa5e11df9200a04ec30476c86cbc)
+        ;
+
+        
+    
+    
+            marker_207033cb82745820f10bdacb9f94ed9a.bindTooltip(
+                `<div>
+                     Pariis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48afd732c7126ce7498c356bdf0e4b39 = L.marker(
+                [58.93647132, 23.54525083],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_f489975c7d61bca738d7518b2f10caeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_48afd732c7126ce7498c356bdf0e4b39.setIcon(icon_f489975c7d61bca738d7518b2f10caeb);
+        
+    
+        var popup_2498eda81248b1ec9681e37eddd0a7ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ad54830e3d33072c423a23f44052539 = $(`<div id="html_1ad54830e3d33072c423a23f44052539" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Haapsalu>Haapsalu</a></div>`)[0];
+            popup_2498eda81248b1ec9681e37eddd0a7ea.setContent(html_1ad54830e3d33072c423a23f44052539);
+        
+
+        marker_48afd732c7126ce7498c356bdf0e4b39.bindPopup(popup_2498eda81248b1ec9681e37eddd0a7ea)
+        ;
+
+        
+    
+    
+            marker_48afd732c7126ce7498c356bdf0e4b39.bindTooltip(
+                `<div>
+                     Haapsalu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c83361090a95c06e664f4eebba45551a = L.marker(
+                [41.97867642, 21.44822881],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_f20d6683aeb6e13ef795f37509b6a201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c83361090a95c06e664f4eebba45551a.setIcon(icon_f20d6683aeb6e13ef795f37509b6a201);
+        
+    
+        var popup_cc6672bc484d3b6e5049656ec4260daf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a871bb28fad54e0fc4b14374626c1edc = $(`<div id="html_a871bb28fad54e0fc4b14374626c1edc" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Skopje>Skopje</a></div>`)[0];
+            popup_cc6672bc484d3b6e5049656ec4260daf.setContent(html_a871bb28fad54e0fc4b14374626c1edc);
+        
+
+        marker_c83361090a95c06e664f4eebba45551a.bindPopup(popup_cc6672bc484d3b6e5049656ec4260daf)
+        ;
+
+        
+    
+    
+            marker_c83361090a95c06e664f4eebba45551a.bindTooltip(
+                `<div>
+                     Skopje
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cf63833398957ef077f91225ddceff1 = L.marker(
+                [57.39387313, 21.56584399],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_d8ef6dcd37078f972a9b4757031015ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7cf63833398957ef077f91225ddceff1.setIcon(icon_d8ef6dcd37078f972a9b4757031015ce);
+        
+    
+        var popup_2b3d8118882fd065061c9e8c4369b153 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe7f86c6dc7a9fecf4d83b5ebb723c78 = $(`<div id="html_fe7f86c6dc7a9fecf4d83b5ebb723c78" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Ventspils>Ventspils</a></div>`)[0];
+            popup_2b3d8118882fd065061c9e8c4369b153.setContent(html_fe7f86c6dc7a9fecf4d83b5ebb723c78);
+        
+
+        marker_7cf63833398957ef077f91225ddceff1.bindPopup(popup_2b3d8118882fd065061c9e8c4369b153)
+        ;
+
+        
+    
+    
+            marker_7cf63833398957ef077f91225ddceff1.bindTooltip(
+                `<div>
+                     Ventspils
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b136308e145bff942e34cb1f0eef0056 = L.marker(
+                [-22.92412515, -43.24544949],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_cbebe233ccd254bc2238274611ab6813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_b136308e145bff942e34cb1f0eef0056.setIcon(icon_cbebe233ccd254bc2238274611ab6813);
+        
+    
+        var popup_a37014b59d21607a921c26391f65177f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_156e6daadf427e71dee743962a82d0c9 = $(`<div id="html_156e6daadf427e71dee743962a82d0c9" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Rio_de_Janeiro>Rio de Janeiro</a></div>`)[0];
+            popup_a37014b59d21607a921c26391f65177f.setContent(html_156e6daadf427e71dee743962a82d0c9);
+        
+
+        marker_b136308e145bff942e34cb1f0eef0056.bindPopup(popup_a37014b59d21607a921c26391f65177f)
+        ;
+
+        
+    
+    
+            marker_b136308e145bff942e34cb1f0eef0056.bindTooltip(
+                `<div>
+                     Rio de Janeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe9905a2ae014ea717be3138fe135246 = L.marker(
+                [46.53846894, 10.13846355],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ecf0aa183dec22380952d08340a042ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fe9905a2ae014ea717be3138fe135246.setIcon(icon_ecf0aa183dec22380952d08340a042ee);
+        
+    
+        var popup_c6b1c5c43c9fd2c9ef4e150b38dd9a76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_782041c77f6dcf37c88a8058d4771bcc = $(`<div id="html_782041c77f6dcf37c88a8058d4771bcc" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Livigno>Livingo</a></div>`)[0];
+            popup_c6b1c5c43c9fd2c9ef4e150b38dd9a76.setContent(html_782041c77f6dcf37c88a8058d4771bcc);
+        
+
+        marker_fe9905a2ae014ea717be3138fe135246.bindPopup(popup_c6b1c5c43c9fd2c9ef4e150b38dd9a76)
+        ;
+
+        
+    
+    
+            marker_fe9905a2ae014ea717be3138fe135246.bindTooltip(
+                `<div>
+                     Livingo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c1689c9649b80fcea084ff148a9c381 = L.marker(
+                [-35.31399891, 149.1208385],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4ff24e992db5353e0015169aba32f612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7c1689c9649b80fcea084ff148a9c381.setIcon(icon_4ff24e992db5353e0015169aba32f612);
+        
+    
+        var popup_454d7078b26aff293cc942cd1ac327e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9faabc55b4c472c6df16856b78870280 = $(`<div id="html_9faabc55b4c472c6df16856b78870280" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Canberra>Canberra</a></div>`)[0];
+            popup_454d7078b26aff293cc942cd1ac327e1.setContent(html_9faabc55b4c472c6df16856b78870280);
+        
+
+        marker_7c1689c9649b80fcea084ff148a9c381.bindPopup(popup_454d7078b26aff293cc942cd1ac327e1)
+        ;
+
+        
+    
+    
+            marker_7c1689c9649b80fcea084ff148a9c381.bindTooltip(
+                `<div>
+                     Canberra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f607ba1c0417dd16e4c36ccceaee3e7a = L.marker(
+                [57.24323085, 22.57809479],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ec10d1789728a7bb0682300f369f6d04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f607ba1c0417dd16e4c36ccceaee3e7a.setIcon(icon_ec10d1789728a7bb0682300f369f6d04);
+        
+    
+        var popup_3a52773a4465fdcd3338f48b8dffb4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26621b9c89cd50702a9cc790fa053f4f = $(`<div id="html_26621b9c89cd50702a9cc790fa053f4f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Talsi>Talsi</a></div>`)[0];
+            popup_3a52773a4465fdcd3338f48b8dffb4b1.setContent(html_26621b9c89cd50702a9cc790fa053f4f);
+        
+
+        marker_f607ba1c0417dd16e4c36ccceaee3e7a.bindPopup(popup_3a52773a4465fdcd3338f48b8dffb4b1)
+        ;
+
+        
+    
+    
+            marker_f607ba1c0417dd16e4c36ccceaee3e7a.bindTooltip(
+                `<div>
+                     Talsi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c5bdcd5e4e3d779ef5b40be43d9c89b = L.marker(
+                [60.10088482, 19.93617183],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_5ea38d64f710cdc57b8ad84414f23e9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9c5bdcd5e4e3d779ef5b40be43d9c89b.setIcon(icon_5ea38d64f710cdc57b8ad84414f23e9e);
+        
+    
+        var popup_594613e66936e8ccf86881dcd61b6e75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f50fde3ba17db87c742e93093d78b3c = $(`<div id="html_0f50fde3ba17db87c742e93093d78b3c" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Mariehamn>Mariehamn</a></div>`)[0];
+            popup_594613e66936e8ccf86881dcd61b6e75.setContent(html_0f50fde3ba17db87c742e93093d78b3c);
+        
+
+        marker_9c5bdcd5e4e3d779ef5b40be43d9c89b.bindPopup(popup_594613e66936e8ccf86881dcd61b6e75)
+        ;
+
+        
+    
+    
+            marker_9c5bdcd5e4e3d779ef5b40be43d9c89b.bindTooltip(
+                `<div>
+                     Mariehamn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06096ee7303617962f139751f3975aa1 = L.marker(
+                [50.07116222, 14.4409581],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4fe0a0def89b5a1654c607f87990c314 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_06096ee7303617962f139751f3975aa1.setIcon(icon_4fe0a0def89b5a1654c607f87990c314);
+        
+    
+        var popup_d40c246f1de8b6d87975d05949e229e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4de20a8fb51648f9a1fb6a4ea0222e = $(`<div id="html_ed4de20a8fb51648f9a1fb6a4ea0222e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Prague>Praha</a></div>`)[0];
+            popup_d40c246f1de8b6d87975d05949e229e9.setContent(html_ed4de20a8fb51648f9a1fb6a4ea0222e);
+        
+
+        marker_06096ee7303617962f139751f3975aa1.bindPopup(popup_d40c246f1de8b6d87975d05949e229e9)
+        ;
+
+        
+    
+    
+            marker_06096ee7303617962f139751f3975aa1.bindTooltip(
+                `<div>
+                     Praha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0495f82975fbfdb58f8a7429e6a73602 = L.marker(
+                [35.89844574, 14.51359405],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_89b566aa3682943750fcaedfac6e098c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0495f82975fbfdb58f8a7429e6a73602.setIcon(icon_89b566aa3682943750fcaedfac6e098c);
+        
+    
+        var popup_bfd28699b9963154e13d02eec64da91c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e559a7d30ab0ae6c3538c80413b2156 = $(`<div id="html_4e559a7d30ab0ae6c3538c80413b2156" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Valletta>Valletta</a></div>`)[0];
+            popup_bfd28699b9963154e13d02eec64da91c.setContent(html_4e559a7d30ab0ae6c3538c80413b2156);
+        
+
+        marker_0495f82975fbfdb58f8a7429e6a73602.bindPopup(popup_bfd28699b9963154e13d02eec64da91c)
+        ;
+
+        
+    
+    
+            marker_0495f82975fbfdb58f8a7429e6a73602.bindTooltip(
+                `<div>
+                     Valletta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_247f4f997233df2215b70cdb17ae8d54 = L.marker(
+                [69.65450834, 18.95578797],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_eead0190e9e2030268cd4dae4a6b7b0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_247f4f997233df2215b70cdb17ae8d54.setIcon(icon_eead0190e9e2030268cd4dae4a6b7b0d);
+        
+    
+        var popup_6be82fb53098f79a70bc8d5491c348c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c91d3162aa7e8a85cee116d01bd436 = $(`<div id="html_63c91d3162aa7e8a85cee116d01bd436" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Tromsø>Tromsö</a></div>`)[0];
+            popup_6be82fb53098f79a70bc8d5491c348c0.setContent(html_63c91d3162aa7e8a85cee116d01bd436);
+        
+
+        marker_247f4f997233df2215b70cdb17ae8d54.bindPopup(popup_6be82fb53098f79a70bc8d5491c348c0)
+        ;
+
+        
+    
+    
+            marker_247f4f997233df2215b70cdb17ae8d54.bindTooltip(
+                `<div>
+                     Tromsö
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd3e115a87c6d1c2b62b92f00e642d71 = L.marker(
+                [68.90822045, 27.0126129],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_3c51db2841ff14f9c3f8fffd0999702d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dd3e115a87c6d1c2b62b92f00e642d71.setIcon(icon_3c51db2841ff14f9c3f8fffd0999702d);
+        
+    
+        var popup_918129626ab23d82984a42a8a5a7b233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c88702f0e95afe617288ae417a5f9a = $(`<div id="html_a2c88702f0e95afe617288ae417a5f9a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Inari,_Finland>Inari</a></div>`)[0];
+            popup_918129626ab23d82984a42a8a5a7b233.setContent(html_a2c88702f0e95afe617288ae417a5f9a);
+        
+
+        marker_dd3e115a87c6d1c2b62b92f00e642d71.bindPopup(popup_918129626ab23d82984a42a8a5a7b233)
+        ;
+
+        
+    
+    
+            marker_dd3e115a87c6d1c2b62b92f00e642d71.bindTooltip(
+                `<div>
+                     Inari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13e28648d8b88718bfa6344ff87b05ee = L.marker(
+                [43.74080469, 7.428116113],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_eff5066f09e6a215181e915528a8c970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_13e28648d8b88718bfa6344ff87b05ee.setIcon(icon_eff5066f09e6a215181e915528a8c970);
+        
+    
+        var popup_61d235fccf42ad401b281b4c144c28d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28c1142bb0921045d11273f55b3d603b = $(`<div id="html_28c1142bb0921045d11273f55b3d603b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Monte_Carlo>Monte Carlo</a></div>`)[0];
+            popup_61d235fccf42ad401b281b4c144c28d1.setContent(html_28c1142bb0921045d11273f55b3d603b);
+        
+
+        marker_13e28648d8b88718bfa6344ff87b05ee.bindPopup(popup_61d235fccf42ad401b281b4c144c28d1)
+        ;
+
+        
+    
+    
+            marker_13e28648d8b88718bfa6344ff87b05ee.bindTooltip(
+                `<div>
+                     Monte Carlo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7450d90a85400908e979274b400b2a0c = L.marker(
+                [43.82346408, 7.784545486],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_6fb15373d594307512ac8b934db7af02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7450d90a85400908e979274b400b2a0c.setIcon(icon_6fb15373d594307512ac8b934db7af02);
+        
+    
+        var popup_6bf548228e17d2535f5138924f73a5d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_379e0cc107d81cb8ec61b4a9b364a2f6 = $(`<div id="html_379e0cc107d81cb8ec61b4a9b364a2f6" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sanremo>Sanremo</a></div>`)[0];
+            popup_6bf548228e17d2535f5138924f73a5d6.setContent(html_379e0cc107d81cb8ec61b4a9b364a2f6);
+        
+
+        marker_7450d90a85400908e979274b400b2a0c.bindPopup(popup_6bf548228e17d2535f5138924f73a5d6)
+        ;
+
+        
+    
+    
+            marker_7450d90a85400908e979274b400b2a0c.bindTooltip(
+                `<div>
+                     Sanremo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aa687642f27645bb63f693dab94743b = L.marker(
+                [59.42348674, 24.74918936],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ba376b5c0fb7ceaef353dad8d365644e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3aa687642f27645bb63f693dab94743b.setIcon(icon_ba376b5c0fb7ceaef353dad8d365644e);
+        
+    
+        var popup_c7da43eca3bf6b21963799ac9717c475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c4816f42d41dede52755880dfc96c6 = $(`<div id="html_34c4816f42d41dede52755880dfc96c6" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Tallinn>Tallinn</a></div>`)[0];
+            popup_c7da43eca3bf6b21963799ac9717c475.setContent(html_34c4816f42d41dede52755880dfc96c6);
+        
+
+        marker_3aa687642f27645bb63f693dab94743b.bindPopup(popup_c7da43eca3bf6b21963799ac9717c475)
+        ;
+
+        
+    
+    
+            marker_3aa687642f27645bb63f693dab94743b.bindTooltip(
+                `<div>
+                     Tallinn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57efcb36a72029a2912f0f74cc535b43 = L.marker(
+                [58.24715118, 22.50069057],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_6008bb4d3631734bbaca3c443fd63ef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57efcb36a72029a2912f0f74cc535b43.setIcon(icon_6008bb4d3631734bbaca3c443fd63ef1);
+        
+    
+        var popup_da7c331ba9a466d70c1b3531834621de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d686cdce6203713c1766e872414341f4 = $(`<div id="html_d686cdce6203713c1766e872414341f4" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Kuressaare>Kuressaare</a></div>`)[0];
+            popup_da7c331ba9a466d70c1b3531834621de.setContent(html_d686cdce6203713c1766e872414341f4);
+        
+
+        marker_57efcb36a72029a2912f0f74cc535b43.bindPopup(popup_da7c331ba9a466d70c1b3531834621de)
+        ;
+
+        
+    
+    
+            marker_57efcb36a72029a2912f0f74cc535b43.bindTooltip(
+                `<div>
+                     Kuressaare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98609a3392546a776f25f6c16b0872e0 = L.marker(
+                [43.24868658, 76.91402743],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_937c1f96b883fe18338c373edc65e9bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_98609a3392546a776f25f6c16b0872e0.setIcon(icon_937c1f96b883fe18338c373edc65e9bc);
+        
+    
+        var popup_ef4f2f33bf0a8d430f0d7e69e1a74429 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9300b0fb54341f44cdafac832925375a = $(`<div id="html_9300b0fb54341f44cdafac832925375a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Almaty>Almatõ</a></div>`)[0];
+            popup_ef4f2f33bf0a8d430f0d7e69e1a74429.setContent(html_9300b0fb54341f44cdafac832925375a);
+        
+
+        marker_98609a3392546a776f25f6c16b0872e0.bindPopup(popup_ef4f2f33bf0a8d430f0d7e69e1a74429)
+        ;
+
+        
+    
+    
+            marker_98609a3392546a776f25f6c16b0872e0.bindTooltip(
+                `<div>
+                     Almatõ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9d77724a72b30808d2d2dba3c7a7ff3 = L.marker(
+                [56.93963958, 24.09416348],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_c90b1ad53c69c7ca57f831b048aa00b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e9d77724a72b30808d2d2dba3c7a7ff3.setIcon(icon_c90b1ad53c69c7ca57f831b048aa00b4);
+        
+    
+        var popup_8713e98802c093fb2dc0ccf121d1caaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8423c7d02b97dcfa03088cb19978c114 = $(`<div id="html_8423c7d02b97dcfa03088cb19978c114" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Riga>Riia</a></div>`)[0];
+            popup_8713e98802c093fb2dc0ccf121d1caaa.setContent(html_8423c7d02b97dcfa03088cb19978c114);
+        
+
+        marker_e9d77724a72b30808d2d2dba3c7a7ff3.bindPopup(popup_8713e98802c093fb2dc0ccf121d1caaa)
+        ;
+
+        
+    
+    
+            marker_e9d77724a72b30808d2d2dba3c7a7ff3.bindTooltip(
+                `<div>
+                     Riia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cddb8238e4afc1597e83fd5eac60bbb = L.marker(
+                [28.27645659, -16.6036726],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_59b261eda58b8913fad976bba9e18f9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8cddb8238e4afc1597e83fd5eac60bbb.setIcon(icon_59b261eda58b8913fad976bba9e18f9a);
+        
+    
+        var popup_1c13015ae8344232926c83bb5c6a64ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58b9340954e5c648b76a9b5617d1af13 = $(`<div id="html_58b9340954e5c648b76a9b5617d1af13" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Tenerife>Tenerife</a></div>`)[0];
+            popup_1c13015ae8344232926c83bb5c6a64ef.setContent(html_58b9340954e5c648b76a9b5617d1af13);
+        
+
+        marker_8cddb8238e4afc1597e83fd5eac60bbb.bindPopup(popup_1c13015ae8344232926c83bb5c6a64ef)
+        ;
+
+        
+    
+    
+            marker_8cddb8238e4afc1597e83fd5eac60bbb.bindTooltip(
+                `<div>
+                     Tenerife
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38c343b59502ae527e16d6724925560e = L.marker(
+                [54.246235, -4.534880299],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4e54208aff1d90a8de2fd67ff4187766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_38c343b59502ae527e16d6724925560e.setIcon(icon_4e54208aff1d90a8de2fd67ff4187766);
+        
+    
+        var popup_8461a895551959deadc8e5e132522f3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e960818e3d08315ba66f180ac11602e = $(`<div id="html_5e960818e3d08315ba66f180ac11602e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Isle_of_Man>Isle of Man</a></div>`)[0];
+            popup_8461a895551959deadc8e5e132522f3f.setContent(html_5e960818e3d08315ba66f180ac11602e);
+        
+
+        marker_38c343b59502ae527e16d6724925560e.bindPopup(popup_8461a895551959deadc8e5e132522f3f)
+        ;
+
+        
+    
+    
+            marker_38c343b59502ae527e16d6724925560e.bindTooltip(
+                `<div>
+                     Isle of Man
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f0592c5316497518e7bd29502c963f5 = L.marker(
+                [51.51660537, 0.115343019],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_36ed04d85008e8c13b03a85d8e81ff93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2f0592c5316497518e7bd29502c963f5.setIcon(icon_36ed04d85008e8c13b03a85d8e81ff93);
+        
+    
+        var popup_15d567369645eb109fd2082e54293775 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f18606e5ef35add2e3ea486540ecae = $(`<div id="html_15f18606e5ef35add2e3ea486540ecae" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/London>London</a></div>`)[0];
+            popup_15d567369645eb109fd2082e54293775.setContent(html_15f18606e5ef35add2e3ea486540ecae);
+        
+
+        marker_2f0592c5316497518e7bd29502c963f5.bindPopup(popup_15d567369645eb109fd2082e54293775)
+        ;
+
+        
+    
+    
+            marker_2f0592c5316497518e7bd29502c963f5.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75fedd7ecb6722c41e29f70a84948ea3 = L.marker(
+                [59.96994762, 30.37963445],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_2d6477b21f44c560c9b755bbd6411dea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75fedd7ecb6722c41e29f70a84948ea3.setIcon(icon_2d6477b21f44c560c9b755bbd6411dea);
+        
+    
+        var popup_f0ed4ef94f049dfe8ca4f4c7ee4dd925 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beb9c0396f8febd8ef1d8091ef98ffa9 = $(`<div id="html_beb9c0396f8febd8ef1d8091ef98ffa9" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Saint_Petersburg>St. Peterburg</a></div>`)[0];
+            popup_f0ed4ef94f049dfe8ca4f4c7ee4dd925.setContent(html_beb9c0396f8febd8ef1d8091ef98ffa9);
+        
+
+        marker_75fedd7ecb6722c41e29f70a84948ea3.bindPopup(popup_f0ed4ef94f049dfe8ca4f4c7ee4dd925)
+        ;
+
+        
+    
+    
+            marker_75fedd7ecb6722c41e29f70a84948ea3.bindTooltip(
+                `<div>
+                     St. Peterburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_848f799f0bbd3317f30199738d251d08 = L.marker(
+                [48.19596414, 16.37047179],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_83eb2b94dfd3cc001e2f7d656a2b6853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_848f799f0bbd3317f30199738d251d08.setIcon(icon_83eb2b94dfd3cc001e2f7d656a2b6853);
+        
+    
+        var popup_3d164bc37b361a45c4fefabce942d541 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef923c50e34fee7a94134c25d4a53038 = $(`<div id="html_ef923c50e34fee7a94134c25d4a53038" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Vienna>Viin</a></div>`)[0];
+            popup_3d164bc37b361a45c4fefabce942d541.setContent(html_ef923c50e34fee7a94134c25d4a53038);
+        
+
+        marker_848f799f0bbd3317f30199738d251d08.bindPopup(popup_3d164bc37b361a45c4fefabce942d541)
+        ;
+
+        
+    
+    
+            marker_848f799f0bbd3317f30199738d251d08.bindTooltip(
+                `<div>
+                     Viin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4b4997d32bffeb33455e134e53bba7d = L.marker(
+                [47.13571831, 9.518987833],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_b6e29c788ecf4b33d9e9d43f1643edaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f4b4997d32bffeb33455e134e53bba7d.setIcon(icon_b6e29c788ecf4b33d9e9d43f1643edaa);
+        
+    
+        var popup_b1d24df4e913008bcff2860202ee1132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55962b6d2bacebd05d792cd614b8dcf6 = $(`<div id="html_55962b6d2bacebd05d792cd614b8dcf6" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Vaduz>Vaduz</a></div>`)[0];
+            popup_b1d24df4e913008bcff2860202ee1132.setContent(html_55962b6d2bacebd05d792cd614b8dcf6);
+        
+
+        marker_f4b4997d32bffeb33455e134e53bba7d.bindPopup(popup_b1d24df4e913008bcff2860202ee1132)
+        ;
+
+        
+    
+    
+            marker_f4b4997d32bffeb33455e134e53bba7d.bindTooltip(
+                `<div>
+                     Vaduz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c19cf9812e28039358aa734fa037256e = L.marker(
+                [54.70721347, 20.5078335],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_356ac541a34454175ec976158ef2497c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c19cf9812e28039358aa734fa037256e.setIcon(icon_356ac541a34454175ec976158ef2497c);
+        
+    
+        var popup_6915a79846c6e85d8918821c1fb8229a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33cdb491c80c9f2030a6c4e08355ff48 = $(`<div id="html_33cdb491c80c9f2030a6c4e08355ff48" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Kaliningrad>Kaliningrad</a></div>`)[0];
+            popup_6915a79846c6e85d8918821c1fb8229a.setContent(html_33cdb491c80c9f2030a6c4e08355ff48);
+        
+
+        marker_c19cf9812e28039358aa734fa037256e.bindPopup(popup_6915a79846c6e85d8918821c1fb8229a)
+        ;
+
+        
+    
+    
+            marker_c19cf9812e28039358aa734fa037256e.bindTooltip(
+                `<div>
+                     Kaliningrad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a1d8aa505b425bde43550f01e7ea5ed = L.marker(
+                [55.71268792, 21.15310495],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_9aeda03c024368e7cdd37a91c5769058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3a1d8aa505b425bde43550f01e7ea5ed.setIcon(icon_9aeda03c024368e7cdd37a91c5769058);
+        
+    
+        var popup_a5ddcfd448af19ed1f254f978f127c17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_747476c350c96b60081a55508a25ea5e = $(`<div id="html_747476c350c96b60081a55508a25ea5e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Klaipėda>Klaipeda</a></div>`)[0];
+            popup_a5ddcfd448af19ed1f254f978f127c17.setContent(html_747476c350c96b60081a55508a25ea5e);
+        
+
+        marker_3a1d8aa505b425bde43550f01e7ea5ed.bindPopup(popup_a5ddcfd448af19ed1f254f978f127c17)
+        ;
+
+        
+    
+    
+            marker_3a1d8aa505b425bde43550f01e7ea5ed.bindTooltip(
+                `<div>
+                     Klaipeda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5775c674d499f88ce7b22ae607a1dfd = L.marker(
+                [51.34177603, 12.3771867],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_1d462c44f7c31a8ddc1b0f9f15d7ea30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e5775c674d499f88ce7b22ae607a1dfd.setIcon(icon_1d462c44f7c31a8ddc1b0f9f15d7ea30);
+        
+    
+        var popup_81cfd31d468adc0d4226b00515a8cce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e5769e5263caf83b406617668331c66 = $(`<div id="html_8e5769e5263caf83b406617668331c66" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Leipzig>Leipzig</a></div>`)[0];
+            popup_81cfd31d468adc0d4226b00515a8cce8.setContent(html_8e5769e5263caf83b406617668331c66);
+        
+
+        marker_e5775c674d499f88ce7b22ae607a1dfd.bindPopup(popup_81cfd31d468adc0d4226b00515a8cce8)
+        ;
+
+        
+    
+    
+            marker_e5775c674d499f88ce7b22ae607a1dfd.bindTooltip(
+                `<div>
+                     Leipzig
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7366d7e1c54ed700bb67f47d050fcd5c = L.marker(
+                [46.059333, 11.12757327],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_f85a6e68ff0517d665eac0333a5a3db4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7366d7e1c54ed700bb67f47d050fcd5c.setIcon(icon_f85a6e68ff0517d665eac0333a5a3db4);
+        
+    
+        var popup_7a0962084a0c1c4ed8754f89b0fcf4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_064394196a2f9fa894a4caefee500e37 = $(`<div id="html_064394196a2f9fa894a4caefee500e37" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Trento>Trento</a></div>`)[0];
+            popup_7a0962084a0c1c4ed8754f89b0fcf4f2.setContent(html_064394196a2f9fa894a4caefee500e37);
+        
+
+        marker_7366d7e1c54ed700bb67f47d050fcd5c.bindPopup(popup_7a0962084a0c1c4ed8754f89b0fcf4f2)
+        ;
+
+        
+    
+    
+            marker_7366d7e1c54ed700bb67f47d050fcd5c.bindTooltip(
+                `<div>
+                     Trento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb8049d85506ff1db862ffaba52c381e = L.marker(
+                [59.97506422, 23.45246645],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_47954a7e79c00fda10225ee72f93b242 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bb8049d85506ff1db862ffaba52c381e.setIcon(icon_47954a7e79c00fda10225ee72f93b242);
+        
+    
+        var popup_fa717bc55146c1746ea34a6fb95c8220 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de6d2d7222de30a969351b4e35c0e394 = $(`<div id="html_de6d2d7222de30a969351b4e35c0e394" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Ekenäs,_Finland>Tammisaari</a></div>`)[0];
+            popup_fa717bc55146c1746ea34a6fb95c8220.setContent(html_de6d2d7222de30a969351b4e35c0e394);
+        
+
+        marker_bb8049d85506ff1db862ffaba52c381e.bindPopup(popup_fa717bc55146c1746ea34a6fb95c8220)
+        ;
+
+        
+    
+    
+            marker_bb8049d85506ff1db862ffaba52c381e.bindTooltip(
+                `<div>
+                     Tammisaari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23bbb503e9d75457894f90e1aad228bf = L.marker(
+                [55.92769512, 21.08806302],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_de08f9be87b7d8fa5a94d42460abaf67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23bbb503e9d75457894f90e1aad228bf.setIcon(icon_de08f9be87b7d8fa5a94d42460abaf67);
+        
+    
+        var popup_d1b25c8c496aad38e00af3321c20fc73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d4f23a08928ede3027fe4081f52ffe4 = $(`<div id="html_4d4f23a08928ede3027fe4081f52ffe4" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Palanga>Palanga</a></div>`)[0];
+            popup_d1b25c8c496aad38e00af3321c20fc73.setContent(html_4d4f23a08928ede3027fe4081f52ffe4);
+        
+
+        marker_23bbb503e9d75457894f90e1aad228bf.bindPopup(popup_d1b25c8c496aad38e00af3321c20fc73)
+        ;
+
+        
+    
+    
+            marker_23bbb503e9d75457894f90e1aad228bf.bindTooltip(
+                `<div>
+                     Palanga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89384bdba3e4e118884620f0d48b65e9 = L.marker(
+                [59.37515394, 28.17197847],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ed3013cd7708e8774ec969269bad5527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_89384bdba3e4e118884620f0d48b65e9.setIcon(icon_ed3013cd7708e8774ec969269bad5527);
+        
+    
+        var popup_3608b786bd68754af923aa329ed686f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1fce18e068c5839fc281fc1b79aa77d = $(`<div id="html_a1fce18e068c5839fc281fc1b79aa77d" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Narva>Narva</a></div>`)[0];
+            popup_3608b786bd68754af923aa329ed686f1.setContent(html_a1fce18e068c5839fc281fc1b79aa77d);
+        
+
+        marker_89384bdba3e4e118884620f0d48b65e9.bindPopup(popup_3608b786bd68754af923aa329ed686f1)
+        ;
+
+        
+    
+    
+            marker_89384bdba3e4e118884620f0d48b65e9.bindTooltip(
+                `<div>
+                     Narva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fde9f29da2eaba697ba0281a618f190 = L.marker(
+                [59.32085357, 18.06993048],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_461fd14ec65ce7b1117d96f24117d5dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0fde9f29da2eaba697ba0281a618f190.setIcon(icon_461fd14ec65ce7b1117d96f24117d5dc);
+        
+    
+        var popup_d95f8fee3b362b37731beaa515ef891a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c32f7a5ab3247993d5054af630c8669c = $(`<div id="html_c32f7a5ab3247993d5054af630c8669c" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Stockholm>Stockholm</a></div>`)[0];
+            popup_d95f8fee3b362b37731beaa515ef891a.setContent(html_c32f7a5ab3247993d5054af630c8669c);
+        
+
+        marker_0fde9f29da2eaba697ba0281a618f190.bindPopup(popup_d95f8fee3b362b37731beaa515ef891a)
+        ;
+
+        
+    
+    
+            marker_0fde9f29da2eaba697ba0281a618f190.bindTooltip(
+                `<div>
+                     Stockholm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_359d108bd36c11b303ac3fbf145b86d6 = L.marker(
+                [42.86072766, 74.5808398],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ec528790a37f8f362931c639005000db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_359d108bd36c11b303ac3fbf145b86d6.setIcon(icon_ec528790a37f8f362931c639005000db);
+        
+    
+        var popup_17840bd9b0d2e3f9fe770a08c69f5ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2cca033387e8612345260d072ec849 = $(`<div id="html_3e2cca033387e8612345260d072ec849" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Bishkek>Bishkek</a></div>`)[0];
+            popup_17840bd9b0d2e3f9fe770a08c69f5ca5.setContent(html_3e2cca033387e8612345260d072ec849);
+        
+
+        marker_359d108bd36c11b303ac3fbf145b86d6.bindPopup(popup_17840bd9b0d2e3f9fe770a08c69f5ca5)
+        ;
+
+        
+    
+    
+            marker_359d108bd36c11b303ac3fbf145b86d6.bindTooltip(
+                `<div>
+                     Bishkek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c46e04eea5580bfd26d5d22f5b00f0a = L.marker(
+                [53.33907996, -6.265604099],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_437e022111495c1533ac7ad73a710f2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3c46e04eea5580bfd26d5d22f5b00f0a.setIcon(icon_437e022111495c1533ac7ad73a710f2e);
+        
+    
+        var popup_adda450553fb531d8f1999c19cd75fee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41a1f15ccd4aed501d08cdb3b17fe7a2 = $(`<div id="html_41a1f15ccd4aed501d08cdb3b17fe7a2" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Dublin>Dublin</a></div>`)[0];
+            popup_adda450553fb531d8f1999c19cd75fee.setContent(html_41a1f15ccd4aed501d08cdb3b17fe7a2);
+        
+
+        marker_3c46e04eea5580bfd26d5d22f5b00f0a.bindPopup(popup_adda450553fb531d8f1999c19cd75fee)
+        ;
+
+        
+    
+    
+            marker_3c46e04eea5580bfd26d5d22f5b00f0a.bindTooltip(
+                `<div>
+                     Dublin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d78c61c891b9d2fd8a56cca464ac369b = L.marker(
+                [37.98826624, 23.73250299],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_bf4641db7e18ce61e7b08cdbca64f389 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d78c61c891b9d2fd8a56cca464ac369b.setIcon(icon_bf4641db7e18ce61e7b08cdbca64f389);
+        
+    
+        var popup_61a289dc03aa5a2d6af910645987e4a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_672feb5b36c8a3e996c6c2f947bba155 = $(`<div id="html_672feb5b36c8a3e996c6c2f947bba155" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Athens>Ateena</a></div>`)[0];
+            popup_61a289dc03aa5a2d6af910645987e4a3.setContent(html_672feb5b36c8a3e996c6c2f947bba155);
+        
+
+        marker_d78c61c891b9d2fd8a56cca464ac369b.bindPopup(popup_61a289dc03aa5a2d6af910645987e4a3)
+        ;
+
+        
+    
+    
+            marker_d78c61c891b9d2fd8a56cca464ac369b.bindTooltip(
+                `<div>
+                     Ateena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c21b2c1cc674deeb8b489161a208dd5 = L.marker(
+                [54.40102829, 13.4415867],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_5e342e4708830e68b53311001cad3a00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9c21b2c1cc674deeb8b489161a208dd5.setIcon(icon_5e342e4708830e68b53311001cad3a00);
+        
+    
+        var popup_79023e8ce843482036b253656834cfb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7060186386c4f75536555234cb0a524 = $(`<div id="html_d7060186386c4f75536555234cb0a524" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Rügen>Rügen</a></div>`)[0];
+            popup_79023e8ce843482036b253656834cfb9.setContent(html_d7060186386c4f75536555234cb0a524);
+        
+
+        marker_9c21b2c1cc674deeb8b489161a208dd5.bindPopup(popup_79023e8ce843482036b253656834cfb9)
+        ;
+
+        
+    
+    
+            marker_9c21b2c1cc674deeb8b489161a208dd5.bindTooltip(
+                `<div>
+                     Rügen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c35538d328eb7122d57e07d8e891f1e = L.marker(
+                [57.63068863, 18.30240979],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_2e5935f80625587374b75c0e13af13b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1c35538d328eb7122d57e07d8e891f1e.setIcon(icon_2e5935f80625587374b75c0e13af13b6);
+        
+    
+        var popup_c8dbc1abca753983e5b3023e4dfdd31b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edea8663c4fe2e68d1fc0a2e051ef636 = $(`<div id="html_edea8663c4fe2e68d1fc0a2e051ef636" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Visby>Visby</a></div>`)[0];
+            popup_c8dbc1abca753983e5b3023e4dfdd31b.setContent(html_edea8663c4fe2e68d1fc0a2e051ef636);
+        
+
+        marker_1c35538d328eb7122d57e07d8e891f1e.bindPopup(popup_c8dbc1abca753983e5b3023e4dfdd31b)
+        ;
+
+        
+    
+    
+            marker_1c35538d328eb7122d57e07d8e891f1e.bindTooltip(
+                `<div>
+                     Visby
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65a937137a931bf943802e9db726588a = L.marker(
+                [48.12602545, 11.59129274],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_7dc2fbf6dd7196ecb098f39651a66efd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65a937137a931bf943802e9db726588a.setIcon(icon_7dc2fbf6dd7196ecb098f39651a66efd);
+        
+    
+        var popup_c272a14c435d4fe463d786ed523f50e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ffdb835f4071ab0d86c5c567f005b9 = $(`<div id="html_83ffdb835f4071ab0d86c5c567f005b9" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Munich>Munchen</a></div>`)[0];
+            popup_c272a14c435d4fe463d786ed523f50e2.setContent(html_83ffdb835f4071ab0d86c5c567f005b9);
+        
+
+        marker_65a937137a931bf943802e9db726588a.bindPopup(popup_c272a14c435d4fe463d786ed523f50e2)
+        ;
+
+        
+    
+    
+            marker_65a937137a931bf943802e9db726588a.bindTooltip(
+                `<div>
+                     Munchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c68f355ed4e32a0439eb4fca84663e11 = L.marker(
+                [54.67918182, 25.28452228],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_e4bb8fd6c62c6454c2e6c577ee04fbc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c68f355ed4e32a0439eb4fca84663e11.setIcon(icon_e4bb8fd6c62c6454c2e6c577ee04fbc7);
+        
+    
+        var popup_5007f50c110560cc7d742f2685dc10d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f0088bc862a1cd6c057e723a8ac806f = $(`<div id="html_7f0088bc862a1cd6c057e723a8ac806f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Vilnius>Vilnius</a></div>`)[0];
+            popup_5007f50c110560cc7d742f2685dc10d1.setContent(html_7f0088bc862a1cd6c057e723a8ac806f);
+        
+
+        marker_c68f355ed4e32a0439eb4fca84663e11.bindPopup(popup_5007f50c110560cc7d742f2685dc10d1)
+        ;
+
+        
+    
+    
+            marker_c68f355ed4e32a0439eb4fca84663e11.bindTooltip(
+                `<div>
+                     Vilnius
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bd030fea1915617ebc091f214f7badf = L.marker(
+                [39.58579419, 2.985693285],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_7ffa5337770a449187a00d803def23ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6bd030fea1915617ebc091f214f7badf.setIcon(icon_7ffa5337770a449187a00d803def23ae);
+        
+    
+        var popup_f018568ce696e3b6005efb1fa9ba9e1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c7b35765c01450b08a9023a03b6917 = $(`<div id="html_d9c7b35765c01450b08a9023a03b6917" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Mallorca>Mallorca</a></div>`)[0];
+            popup_f018568ce696e3b6005efb1fa9ba9e1d.setContent(html_d9c7b35765c01450b08a9023a03b6917);
+        
+
+        marker_6bd030fea1915617ebc091f214f7badf.bindPopup(popup_f018568ce696e3b6005efb1fa9ba9e1d)
+        ;
+
+        
+    
+    
+            marker_6bd030fea1915617ebc091f214f7badf.bindTooltip(
+                `<div>
+                     Mallorca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc8ec50d8ff08909bc57340343461106 = L.marker(
+                [50.85187112, 4.354132929],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4c871488897e833cc36e36e1ce080da6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bc8ec50d8ff08909bc57340343461106.setIcon(icon_4c871488897e833cc36e36e1ce080da6);
+        
+    
+        var popup_7bf042e9092a15be55d38503cd86ed83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1181a9abba3a233b3b2c75f0485a7fc = $(`<div id="html_e1181a9abba3a233b3b2c75f0485a7fc" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Brussels>Brüssel</a></div>`)[0];
+            popup_7bf042e9092a15be55d38503cd86ed83.setContent(html_e1181a9abba3a233b3b2c75f0485a7fc);
+        
+
+        marker_bc8ec50d8ff08909bc57340343461106.bindPopup(popup_7bf042e9092a15be55d38503cd86ed83)
+        ;
+
+        
+    
+    
+            marker_bc8ec50d8ff08909bc57340343461106.bindTooltip(
+                `<div>
+                     Brüssel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d50ac3d638a95b53a2376320f4c7789 = L.marker(
+                [52.36468069, 4.896426276],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_e2b0adfd58a07fc3022c80ef17e6ce69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3d50ac3d638a95b53a2376320f4c7789.setIcon(icon_e2b0adfd58a07fc3022c80ef17e6ce69);
+        
+    
+        var popup_366183ab340860e00de58ba17073afe9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adc3804919883f2c8561c9b3bf8a84c5 = $(`<div id="html_adc3804919883f2c8561c9b3bf8a84c5" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Amsterdam>Amsterdam</a></div>`)[0];
+            popup_366183ab340860e00de58ba17073afe9.setContent(html_adc3804919883f2c8561c9b3bf8a84c5);
+        
+
+        marker_3d50ac3d638a95b53a2376320f4c7789.bindPopup(popup_366183ab340860e00de58ba17073afe9)
+        ;
+
+        
+    
+    
+            marker_3d50ac3d638a95b53a2376320f4c7789.bindTooltip(
+                `<div>
+                     Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1102fe82058114c4a98a408d867f0779 = L.marker(
+                [55.12193423, 14.94522267],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_d7f92f79ed06b8818eff2e0f4819aa57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1102fe82058114c4a98a408d867f0779.setIcon(icon_d7f92f79ed06b8818eff2e0f4819aa57);
+        
+    
+        var popup_523cb012376faa7a1fce36a67bfc666c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a512934fbc132c4a3447ed42a80119b = $(`<div id="html_8a512934fbc132c4a3447ed42a80119b" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Bornholm>Bornholmn</a></div>`)[0];
+            popup_523cb012376faa7a1fce36a67bfc666c.setContent(html_8a512934fbc132c4a3447ed42a80119b);
+        
+
+        marker_1102fe82058114c4a98a408d867f0779.bindPopup(popup_523cb012376faa7a1fce36a67bfc666c)
+        ;
+
+        
+    
+    
+            marker_1102fe82058114c4a98a408d867f0779.bindTooltip(
+                `<div>
+                     Bornholmn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_314d390c2f647ef188a76c13b661f5dd = L.marker(
+                [37.10538065, -8.322063648],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_8c516ae5c9592d2512150cb79db86ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_314d390c2f647ef188a76c13b661f5dd.setIcon(icon_8c516ae5c9592d2512150cb79db86ec7);
+        
+    
+        var popup_08fd111c3bdd2bfdd100f9b61dc85069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_725043797b38c35d297419dfdcc0d713 = $(`<div id="html_725043797b38c35d297419dfdcc0d713" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Algarve>Algarve</a></div>`)[0];
+            popup_08fd111c3bdd2bfdd100f9b61dc85069.setContent(html_725043797b38c35d297419dfdcc0d713);
+        
+
+        marker_314d390c2f647ef188a76c13b661f5dd.bindPopup(popup_08fd111c3bdd2bfdd100f9b61dc85069)
+        ;
+
+        
+    
+    
+            marker_314d390c2f647ef188a76c13b661f5dd.bindTooltip(
+                `<div>
+                     Algarve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae2c900fcbe783812d46cab565aac452 = L.marker(
+                [59.91466508, 10.77295028],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_891a466df837f867c8e0a572519d5919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae2c900fcbe783812d46cab565aac452.setIcon(icon_891a466df837f867c8e0a572519d5919);
+        
+    
+        var popup_831a1642055de9286bc8847d76681c00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0cfe622b36298b916a53b931615abe7 = $(`<div id="html_d0cfe622b36298b916a53b931615abe7" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Oslo>Oslo</a></div>`)[0];
+            popup_831a1642055de9286bc8847d76681c00.setContent(html_d0cfe622b36298b916a53b931615abe7);
+        
+
+        marker_ae2c900fcbe783812d46cab565aac452.bindPopup(popup_831a1642055de9286bc8847d76681c00)
+        ;
+
+        
+    
+    
+            marker_ae2c900fcbe783812d46cab565aac452.bindTooltip(
+                `<div>
+                     Oslo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d4581b0490dc3be7655018361fd26d3 = L.marker(
+                [27.95409692, -15.56901039],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_dc0c89ab4dc6935c865e2195dcba4e66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1d4581b0490dc3be7655018361fd26d3.setIcon(icon_dc0c89ab4dc6935c865e2195dcba4e66);
+        
+    
+        var popup_8751aa2230de147cd5340d5f280681b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbc6b3599a17830e26248488c0ee32ba = $(`<div id="html_fbc6b3599a17830e26248488c0ee32ba" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Gran_Canaria>Gran Canaria</a></div>`)[0];
+            popup_8751aa2230de147cd5340d5f280681b9.setContent(html_fbc6b3599a17830e26248488c0ee32ba);
+        
+
+        marker_1d4581b0490dc3be7655018361fd26d3.bindPopup(popup_8751aa2230de147cd5340d5f280681b9)
+        ;
+
+        
+    
+    
+            marker_1d4581b0490dc3be7655018361fd26d3.bindTooltip(
+                `<div>
+                     Gran Canaria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0578f27377b217c0cfabc4af215ec833 = L.marker(
+                [50.94859697, 6.95701291],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ecff944f159036a1644e39a3d4ab9c9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0578f27377b217c0cfabc4af215ec833.setIcon(icon_ecff944f159036a1644e39a3d4ab9c9d);
+        
+    
+        var popup_56bae316d43e6fce489b51e6aa55a03b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5a09356559d51c090cfd892b8c58d80 = $(`<div id="html_d5a09356559d51c090cfd892b8c58d80" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Cologne>Köln</a></div>`)[0];
+            popup_56bae316d43e6fce489b51e6aa55a03b.setContent(html_d5a09356559d51c090cfd892b8c58d80);
+        
+
+        marker_0578f27377b217c0cfabc4af215ec833.bindPopup(popup_56bae316d43e6fce489b51e6aa55a03b)
+        ;
+
+        
+    
+    
+            marker_0578f27377b217c0cfabc4af215ec833.bindTooltip(
+                `<div>
+                     Köln
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ca93b238bf1680bf6ce3005c3c235d = L.marker(
+                [-33.89698966, 151.2068317],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_a13dd48ee3cdab5c67637b57f2054d66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e9ca93b238bf1680bf6ce3005c3c235d.setIcon(icon_a13dd48ee3cdab5c67637b57f2054d66);
+        
+    
+        var popup_c03e7e3b21502b98a403b5f32f92a68f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_503bec4710aa166ba9cc6d7e24402c0a = $(`<div id="html_503bec4710aa166ba9cc6d7e24402c0a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Sydney>Sydney</a></div>`)[0];
+            popup_c03e7e3b21502b98a403b5f32f92a68f.setContent(html_503bec4710aa166ba9cc6d7e24402c0a);
+        
+
+        marker_e9ca93b238bf1680bf6ce3005c3c235d.bindPopup(popup_c03e7e3b21502b98a403b5f32f92a68f)
+        ;
+
+        
+    
+    
+            marker_e9ca93b238bf1680bf6ce3005c3c235d.bindTooltip(
+                `<div>
+                     Sydney
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_523ab042d2944896bfd41f2995334a5c = L.marker(
+                [52.36876445, 9.732628736],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_e5feddcfc34b5ab8956967f9821dd74b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_523ab042d2944896bfd41f2995334a5c.setIcon(icon_e5feddcfc34b5ab8956967f9821dd74b);
+        
+    
+        var popup_d3bcd583de696d5cac5d8d5ce3641f55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f522dac40cfd23ed73e91de3797dd342 = $(`<div id="html_f522dac40cfd23ed73e91de3797dd342" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Hanover>Hannover</a></div>`)[0];
+            popup_d3bcd583de696d5cac5d8d5ce3641f55.setContent(html_f522dac40cfd23ed73e91de3797dd342);
+        
+
+        marker_523ab042d2944896bfd41f2995334a5c.bindPopup(popup_d3bcd583de696d5cac5d8d5ce3641f55)
+        ;
+
+        
+    
+    
+            marker_523ab042d2944896bfd41f2995334a5c.bindTooltip(
+                `<div>
+                     Hannover
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15d38a1c5153c533ffe386ed6314cd42 = L.marker(
+                [57.69942964, 11.97072651],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_63b0c25a29d47ef982ffdf7b1f27222c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_15d38a1c5153c533ffe386ed6314cd42.setIcon(icon_63b0c25a29d47ef982ffdf7b1f27222c);
+        
+    
+        var popup_b4eceed540ba04e3626fbe1a3b7aeebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cd0ccb8187db5e5ef1c994c601dc0e7 = $(`<div id="html_5cd0ccb8187db5e5ef1c994c601dc0e7" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Gothenburg>Göteborg</a></div>`)[0];
+            popup_b4eceed540ba04e3626fbe1a3b7aeebb.setContent(html_5cd0ccb8187db5e5ef1c994c601dc0e7);
+        
+
+        marker_15d38a1c5153c533ffe386ed6314cd42.bindPopup(popup_b4eceed540ba04e3626fbe1a3b7aeebb)
+        ;
+
+        
+    
+    
+            marker_15d38a1c5153c533ffe386ed6314cd42.bindTooltip(
+                `<div>
+                     Göteborg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1963da7dca891083dc1242da093c366a = L.marker(
+                [55.68478866, 12.56497716],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_7b52d8dcfb1b5f3d6f7a3fa1a7872bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1963da7dca891083dc1242da093c366a.setIcon(icon_7b52d8dcfb1b5f3d6f7a3fa1a7872bf0);
+        
+    
+        var popup_44f7431973741071e23e7ea6351649a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31dbed89e7d6c6c4dabf1463f59b5cb5 = $(`<div id="html_31dbed89e7d6c6c4dabf1463f59b5cb5" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Copenhagen>Kopenhagen</a></div>`)[0];
+            popup_44f7431973741071e23e7ea6351649a3.setContent(html_31dbed89e7d6c6c4dabf1463f59b5cb5);
+        
+
+        marker_1963da7dca891083dc1242da093c366a.bindPopup(popup_44f7431973741071e23e7ea6351649a3)
+        ;
+
+        
+    
+    
+            marker_1963da7dca891083dc1242da093c366a.bindTooltip(
+                `<div>
+                     Kopenhagen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f67f754d0cdce9ad3edee4a59c6f6314 = L.marker(
+                [51.21148157, 4.412647251],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_4c0a23014dc71995ad0320d15a755f62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f67f754d0cdce9ad3edee4a59c6f6314.setIcon(icon_4c0a23014dc71995ad0320d15a755f62);
+        
+    
+        var popup_629efc743e6f7f532a56bc44f7cd0197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83a86031b22d1b9a592efadb56bf8ab2 = $(`<div id="html_83a86031b22d1b9a592efadb56bf8ab2" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Antwerp>Antwerpen</a></div>`)[0];
+            popup_629efc743e6f7f532a56bc44f7cd0197.setContent(html_83a86031b22d1b9a592efadb56bf8ab2);
+        
+
+        marker_f67f754d0cdce9ad3edee4a59c6f6314.bindPopup(popup_629efc743e6f7f532a56bc44f7cd0197)
+        ;
+
+        
+    
+    
+            marker_f67f754d0cdce9ad3edee4a59c6f6314.bindTooltip(
+                `<div>
+                     Antwerpen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9266590bbcc2b8ee5d6d5813c2fcbfd5 = L.marker(
+                [57.84078828, 27.00918613],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_97069e85b804631a858326673e0b78ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9266590bbcc2b8ee5d6d5813c2fcbfd5.setIcon(icon_97069e85b804631a858326673e0b78ca);
+        
+    
+        var popup_a819765e0cf3a0fa5cb139c886318ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35abc02e8d128477489b3cbea60c608 = $(`<div id="html_d35abc02e8d128477489b3cbea60c608" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Võru>Võru</a></div>`)[0];
+            popup_a819765e0cf3a0fa5cb139c886318ef5.setContent(html_d35abc02e8d128477489b3cbea60c608);
+        
+
+        marker_9266590bbcc2b8ee5d6d5813c2fcbfd5.bindPopup(popup_a819765e0cf3a0fa5cb139c886318ef5)
+        ;
+
+        
+    
+    
+            marker_9266590bbcc2b8ee5d6d5813c2fcbfd5.bindTooltip(
+                `<div>
+                     Võru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_453bab2269a425eeb1f14cff98f615c8 = L.marker(
+                [48.56951966, 7.746274451],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_6a9148eec29d3e013182d025be5433b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_453bab2269a425eeb1f14cff98f615c8.setIcon(icon_6a9148eec29d3e013182d025be5433b9);
+        
+    
+        var popup_52f3ee5b52b3c9ab3c7e1840647d72d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_245e8e85b77944dba205fd7abad1052f = $(`<div id="html_245e8e85b77944dba205fd7abad1052f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Strasbourg>Strasbourg</a></div>`)[0];
+            popup_52f3ee5b52b3c9ab3c7e1840647d72d5.setContent(html_245e8e85b77944dba205fd7abad1052f);
+        
+
+        marker_453bab2269a425eeb1f14cff98f615c8.bindPopup(popup_52f3ee5b52b3c9ab3c7e1840647d72d5)
+        ;
+
+        
+    
+    
+            marker_453bab2269a425eeb1f14cff98f615c8.bindTooltip(
+                `<div>
+                     Strasbourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c96e939ad023179466374924e4ddd416 = L.marker(
+                [31.7662571, 35.21311301],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_3b11461e73e6d469c6c705cb757a27c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c96e939ad023179466374924e4ddd416.setIcon(icon_3b11461e73e6d469c6c705cb757a27c0);
+        
+    
+        var popup_216250143e802d8d24577d7f11af4210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d7317595afd713eb2c087609a26975e = $(`<div id="html_8d7317595afd713eb2c087609a26975e" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Jerusalem>Jerusalem</a></div>`)[0];
+            popup_216250143e802d8d24577d7f11af4210.setContent(html_8d7317595afd713eb2c087609a26975e);
+        
+
+        marker_c96e939ad023179466374924e4ddd416.bindPopup(popup_216250143e802d8d24577d7f11af4210)
+        ;
+
+        
+    
+    
+            marker_c96e939ad023179466374924e4ddd416.bindTooltip(
+                `<div>
+                     Jerusalem
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa8d0d270f588a91d53643a205ad4a72 = L.marker(
+                [45.46752984, 9.187343983],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_ada7a25bc1fbdc72654e4759fbd01475 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aa8d0d270f588a91d53643a205ad4a72.setIcon(icon_ada7a25bc1fbdc72654e4759fbd01475);
+        
+    
+        var popup_3b7ca68bd76ea9c990993703f90ea422 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51b886def7e5f1a7a42e10d60c5bbd02 = $(`<div id="html_51b886def7e5f1a7a42e10d60c5bbd02" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Milan>Milano</a></div>`)[0];
+            popup_3b7ca68bd76ea9c990993703f90ea422.setContent(html_51b886def7e5f1a7a42e10d60c5bbd02);
+        
+
+        marker_aa8d0d270f588a91d53643a205ad4a72.bindPopup(popup_3b7ca68bd76ea9c990993703f90ea422)
+        ;
+
+        
+    
+    
+            marker_aa8d0d270f588a91d53643a205ad4a72.bindTooltip(
+                `<div>
+                     Milano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ccfda09a867b0b9403714346ef8b321 = L.marker(
+                [47.16802393, 11.86374703],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_36cc8881cddb702b846fdbde6cbc6a7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9ccfda09a867b0b9403714346ef8b321.setIcon(icon_36cc8881cddb702b846fdbde6cbc6a7d);
+        
+    
+        var popup_1b6f2434ec7828f27ac2e83344fcdbde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5140a160c35e1968dd6e7a4aaa23bb03 = $(`<div id="html_5140a160c35e1968dd6e7a4aaa23bb03" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Mayrhofen>Mayrhofen</a></div>`)[0];
+            popup_1b6f2434ec7828f27ac2e83344fcdbde.setContent(html_5140a160c35e1968dd6e7a4aaa23bb03);
+        
+
+        marker_9ccfda09a867b0b9403714346ef8b321.bindPopup(popup_1b6f2434ec7828f27ac2e83344fcdbde)
+        ;
+
+        
+    
+    
+            marker_9ccfda09a867b0b9403714346ef8b321.bindTooltip(
+                `<div>
+                     Mayrhofen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efa23214b433989d292824711400dab9 = L.marker(
+                [53.53399942, 9.993471204],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_20641b686a0c407958ec015b336b870c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_efa23214b433989d292824711400dab9.setIcon(icon_20641b686a0c407958ec015b336b870c);
+        
+    
+        var popup_7a6b842ca9e2577d2f3c8d4b14f5f58c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a4653cfd2c7197daeaf878acad38a8 = $(`<div id="html_55a4653cfd2c7197daeaf878acad38a8" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Hamburg>Hamburg</a></div>`)[0];
+            popup_7a6b842ca9e2577d2f3c8d4b14f5f58c.setContent(html_55a4653cfd2c7197daeaf878acad38a8);
+        
+
+        marker_efa23214b433989d292824711400dab9.bindPopup(popup_7a6b842ca9e2577d2f3c8d4b14f5f58c)
+        ;
+
+        
+    
+    
+            marker_efa23214b433989d292824711400dab9.bindTooltip(
+                `<div>
+                     Hamburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c02c1154643200d6bfa23272fa1c4d19 = L.marker(
+                [50.10489516, 8.67706798],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_cab5db4e35e041aa1fa84db13be55052 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c02c1154643200d6bfa23272fa1c4d19.setIcon(icon_cab5db4e35e041aa1fa84db13be55052);
+        
+    
+        var popup_95a8f16d629250ea75974fde21535134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb28a2d8d60d8f42a61085cf0355f545 = $(`<div id="html_cb28a2d8d60d8f42a61085cf0355f545" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Frankfurt>Frankfurt</a></div>`)[0];
+            popup_95a8f16d629250ea75974fde21535134.setContent(html_cb28a2d8d60d8f42a61085cf0355f545);
+        
+
+        marker_c02c1154643200d6bfa23272fa1c4d19.bindPopup(popup_95a8f16d629250ea75974fde21535134)
+        ;
+
+        
+    
+    
+            marker_c02c1154643200d6bfa23272fa1c4d19.bindTooltip(
+                `<div>
+                     Frankfurt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bd680d706e2e31bbc492fa4e31d303a = L.marker(
+                [50.85507505, 3.286426982],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_a692cf46080e010604d7e7a97f0732ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5bd680d706e2e31bbc492fa4e31d303a.setIcon(icon_a692cf46080e010604d7e7a97f0732ce);
+        
+    
+        var popup_4502023b8a59560376190c9cc069982b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfbad2556129b08a2d58c041d95c2ef0 = $(`<div id="html_bfbad2556129b08a2d58c041d95c2ef0" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Kuurne>Kuurne</a></div>`)[0];
+            popup_4502023b8a59560376190c9cc069982b.setContent(html_bfbad2556129b08a2d58c041d95c2ef0);
+        
+
+        marker_5bd680d706e2e31bbc492fa4e31d303a.bindPopup(popup_4502023b8a59560376190c9cc069982b)
+        ;
+
+        
+    
+    
+            marker_5bd680d706e2e31bbc492fa4e31d303a.bindTooltip(
+                `<div>
+                     Kuurne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e29e3ee3497c3a5c08a525a1e23f787a = L.marker(
+                [21.15752531, -86.8530061],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_2b0a3250671413356f253e6cca7c085d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e29e3ee3497c3a5c08a525a1e23f787a.setIcon(icon_2b0a3250671413356f253e6cca7c085d);
+        
+    
+        var popup_edb2e910f522ee67c634e69e8f62b29a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54f60b691dc4121223b800acac988e6a = $(`<div id="html_54f60b691dc4121223b800acac988e6a" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Cancún>Cancun</a></div>`)[0];
+            popup_edb2e910f522ee67c634e69e8f62b29a.setContent(html_54f60b691dc4121223b800acac988e6a);
+        
+
+        marker_e29e3ee3497c3a5c08a525a1e23f787a.bindPopup(popup_edb2e910f522ee67c634e69e8f62b29a)
+        ;
+
+        
+    
+    
+            marker_e29e3ee3497c3a5c08a525a1e23f787a.bindTooltip(
+                `<div>
+                     Cancun
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6bbcfb5a47a00b1562f6cc313483251 = L.marker(
+                [70.88748009, 26.56951679],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_b7553778d8932342203ab32c3f425a79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f6bbcfb5a47a00b1562f6cc313483251.setIcon(icon_b7553778d8932342203ab32c3f425a79);
+        
+    
+        var popup_8b5449cf297f4f359f77d398c6538300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb45c0670c17ee6d07e417e229bf3d47 = $(`<div id="html_fb45c0670c17ee6d07e417e229bf3d47" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Nordkapp>Nordkapp</a></div>`)[0];
+            popup_8b5449cf297f4f359f77d398c6538300.setContent(html_fb45c0670c17ee6d07e417e229bf3d47);
+        
+
+        marker_f6bbcfb5a47a00b1562f6cc313483251.bindPopup(popup_8b5449cf297f4f359f77d398c6538300)
+        ;
+
+        
+    
+    
+            marker_f6bbcfb5a47a00b1562f6cc313483251.bindTooltip(
+                `<div>
+                     Nordkapp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_143e93a90407443377b60c2f2f3980d4 = L.marker(
+                [50.05909365, 19.93893411],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_37a6d9356b67efcb592254314a474ab5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_143e93a90407443377b60c2f2f3980d4.setIcon(icon_37a6d9356b67efcb592254314a474ab5);
+        
+    
+        var popup_0525c41e43f0738742273c68bf12ac38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb71fec0e6dc54fa11dc4a5bb5c071c2 = $(`<div id="html_cb71fec0e6dc54fa11dc4a5bb5c071c2" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Kraków>Krakow</a></div>`)[0];
+            popup_0525c41e43f0738742273c68bf12ac38.setContent(html_cb71fec0e6dc54fa11dc4a5bb5c071c2);
+        
+
+        marker_143e93a90407443377b60c2f2f3980d4.bindPopup(popup_0525c41e43f0738742273c68bf12ac38)
+        ;
+
+        
+    
+    
+            marker_143e93a90407443377b60c2f2f3980d4.bindTooltip(
+                `<div>
+                     Krakow
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f4b8bb50f087f74d51a8d3162cf950 = L.marker(
+                [43.26986586, 6.641809395],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_32c5790f9b934543f9eab86a96f63efd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_96f4b8bb50f087f74d51a8d3162cf950.setIcon(icon_32c5790f9b934543f9eab86a96f63efd);
+        
+    
+        var popup_334559db0398b27e709b2dc0cc9e8398 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e6ba0f43dc6a412dc713b425e92272 = $(`<div id="html_26e6ba0f43dc6a412dc713b425e92272" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Saint-Tropez>St. Tropez</a></div>`)[0];
+            popup_334559db0398b27e709b2dc0cc9e8398.setContent(html_26e6ba0f43dc6a412dc713b425e92272);
+        
+
+        marker_96f4b8bb50f087f74d51a8d3162cf950.bindPopup(popup_334559db0398b27e709b2dc0cc9e8398)
+        ;
+
+        
+    
+    
+            marker_96f4b8bb50f087f74d51a8d3162cf950.bindTooltip(
+                `<div>
+                     St. Tropez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3a7cbc7c52dfb1226d5c84f5cf4fce4 = L.marker(
+                [31.17234928, 121.5448164],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_dca7873a688d046480d69df93016dbc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d3a7cbc7c52dfb1226d5c84f5cf4fce4.setIcon(icon_dca7873a688d046480d69df93016dbc1);
+        
+    
+        var popup_d9dfee3644a47715cab012444e23f1c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4656e8848cd96828dc3fcd4e9cf581f = $(`<div id="html_c4656e8848cd96828dc3fcd4e9cf581f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Shanghai>Shanghai</a></div>`)[0];
+            popup_d9dfee3644a47715cab012444e23f1c6.setContent(html_c4656e8848cd96828dc3fcd4e9cf581f);
+        
+
+        marker_d3a7cbc7c52dfb1226d5c84f5cf4fce4.bindPopup(popup_d9dfee3644a47715cab012444e23f1c6)
+        ;
+
+        
+    
+    
+            marker_d3a7cbc7c52dfb1226d5c84f5cf4fce4.bindTooltip(
+                `<div>
+                     Shanghai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_982c298563b10d6af32e779ddf4d7ca6 = L.marker(
+                [53.45390418, 26.46818591],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_3dd88549a3d5ee21444c3ab9ae863a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_982c298563b10d6af32e779ddf4d7ca6.setIcon(icon_3dd88549a3d5ee21444c3ab9ae863a98);
+        
+    
+        var popup_114410dad0f045ffa70f25775a1d4a51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94260d703e0abb1938bc74cf16990bdc = $(`<div id="html_94260d703e0abb1938bc74cf16990bdc" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Mir,_Belarus>Mir</a></div>`)[0];
+            popup_114410dad0f045ffa70f25775a1d4a51.setContent(html_94260d703e0abb1938bc74cf16990bdc);
+        
+
+        marker_982c298563b10d6af32e779ddf4d7ca6.bindPopup(popup_114410dad0f045ffa70f25775a1d4a51)
+        ;
+
+        
+    
+    
+            marker_982c298563b10d6af32e779ddf4d7ca6.bindTooltip(
+                `<div>
+                     Mir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_080ca1d584bc9b38c0f9dfa9b4204ce4 = L.marker(
+                [-8.362995648, 115.151236],
+                {}
+            ).addTo(map_c928fcedada2404c20041d747572bbac);
+        
+    
+            var icon_f5a4437041d937bb77a0b63590d4534c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_080ca1d584bc9b38c0f9dfa9b4204ce4.setIcon(icon_f5a4437041d937bb77a0b63590d4534c);
+        
+    
+        var popup_11cf365f78130ee69fe5a014ffcb0f14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc9e3c64520e16981e4cc06cb16ee16f = $(`<div id="html_fc9e3c64520e16981e4cc06cb16ee16f" style="width: 100.0%; height: 100.0%;"><a href=https://en.wikipedia.org/wiki/Bali>Bali</a></div>`)[0];
+            popup_11cf365f78130ee69fe5a014ffcb0f14.setContent(html_fc9e3c64520e16981e4cc06cb16ee16f);
+        
+
+        marker_080ca1d584bc9b38c0f9dfa9b4204ce4.bindPopup(popup_11cf365f78130ee69fe5a014ffcb0f14)
+        ;
+
+        
+    
+    
+            marker_080ca1d584bc9b38c0f9dfa9b4204ce4.bindTooltip(
+                `<div>
+                     Bali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_d3d470c7dbc0974d4a21359b6c3966de = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_20b444f41457e617874a8c0b2b092de4 = new L.Control.MiniMap(
+                tile_layer_d3d470c7dbc0974d4a21359b6c3966de,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": false, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_c928fcedada2404c20041d747572bbac.addControl(mini_map_20b444f41457e617874a8c0b2b092de4);
+        
+</script>
